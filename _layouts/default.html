@@ -3,22 +3,27 @@
 
   {% include head.html %}
 
-    <body>
+  <body>
 
-    {% include header.html %}
-    {% include navigation.html %}
-    {% include about.html %}
-    {% include searchbox.html %}
+  {% include header.html %}
+  {% include navigation.html %}
+  {% include forkme.html %}
+  {% include about.html %}
+  {% include searchbox.html %}
 
-    <div class="container">
-    <div class="row">
+  <section class="main-content-section">
+  <div class="palette">
+  <div class="container">
+  <div class="row">
 
-        {{ content }}
+    {{ content }}
 
-    </div><!-- /.row -->
-    </div><!-- /.container -->
+  </div><!-- /.row -->
+  </div><!-- /.container -->
+  </div><!-- /.palette -->
+  </div><!-- /.main-content-section -->
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-    </body>
+  </body>
 </html>

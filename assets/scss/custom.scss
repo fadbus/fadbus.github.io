@@ -116,7 +116,7 @@ h1 small {
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* FontAwesome overrides
+/* custom styles
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #font-filter {
@@ -141,6 +141,26 @@ h1 small {
   padding: 48px 0 96px 0;
 }
 
-.background-color-aaa {
-  background-color: #aaa;
+.background-color-eee {
+  background-color: #eee;
+}
+
+.forkme {
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  border: 0; 
+  width: 125px; 
+  height: 125px; 
+  z-index: 10000;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* responsive
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 768px) {
+  .forkme {
+    display: none;
+  }
 }

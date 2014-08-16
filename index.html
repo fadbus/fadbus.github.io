@@ -1,18 +1,46 @@
 ---
 layout: default
 ---
-
+<section class="searchbox-section">
+<div>
 <div class="container horizontal-padding-medium">
 <div class="row">
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="row font-list-header">
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Icon</div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Name</div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Class</div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Unicode</div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Introduced</div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Categories</div>
+  </div><!-- /.font-list-header -->
+
+  <div class="row font-list-rows">
+
+  {% for post in site.posts %}
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <a href="/post/{{ post.faid }}"><i class="fa {{ post.prefix }}{{ post.faid }}"></i></a>
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      Hi
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      Hi
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      Hi
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      Hi
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      Hi
+    </div>
+  {% endfor %}
+  
+  </div><!-- /.font-list-rows -->
 
 </div><!-- /.row -->
 </div><!-- /.container -->
+</div><!-- /.background-color-eee -->
+</div><!-- /.searchbox-section -->

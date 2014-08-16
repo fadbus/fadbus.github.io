@@ -9,5 +9,8 @@ url: "http://fadb.us/"
 # Build settings
 markdown: kramdown
 permalink: pretty
+paginate_path: /page:num
+timezone: null
 
+repo: "https://github.com/fadbus/fadbus.github.io"
 gacode: "UA-53524614-1"

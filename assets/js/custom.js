@@ -1,3 +1,10 @@
 
-// twitter bootstrap scrollspy
-// $('body').scrollspy({target: '#scrollspy-links'})
+// list.js search
+$(function() {
+
+  var options = {
+    valueNames: [ 'name', 'city' ]
+  };
+
+  var hackerList = new List('hacker-list', options);
+}
