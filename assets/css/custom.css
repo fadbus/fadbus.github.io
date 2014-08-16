@@ -81,4 +81,5 @@ input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow:
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* responsive
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-@media (max-width: 768px) { .forkme { display: none; } }
+@media (max-width: 768px) { .container { width: auto; margin-right: auto; margin-left: auto; }
+  .forkme { display: none; } }

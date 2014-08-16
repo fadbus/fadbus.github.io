@@ -181,6 +181,12 @@ input[type=search], input[type=search]:focus {
 /* responsive
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @media (max-width: 768px) {
+  .container {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .forkme {
     display: none;
   }
