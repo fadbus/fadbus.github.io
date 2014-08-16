@@ -30,7 +30,7 @@
     unicode: "f003"
     created: 1
     categories: "Web Application Icons"
-    meta: ""
+    meta: "email e-mail send message"
   - 
     name: "Heart"
     prefix: "fa-"
@@ -134,7 +134,7 @@
     unicode: "f011"
     created: 1
     categories: "Web Application Icons"
-    meta: ""
+    meta: "on off close shut kill reboot"
   - 
     name: "signal"
     prefix: "fa-"
