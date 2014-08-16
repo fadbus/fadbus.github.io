@@ -1,7 +1,7 @@
 # Site settings
 title: "FontAwesome Metabase"
 email: "dereknutile@gmail.com"
-description: "Filterable database of <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">FontAwesome</a> icons."
+description: "Filterable database of FontAwesome icons."
 tagline: "Find your FontAwesome font easily."
 baseurl: "/"
 url: "http://fadb.us/"
