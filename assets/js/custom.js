@@ -1,10 +1,7 @@
-
-// list.js search
-$(function() {
-
+$(function () {
   var options = {
-    valueNames: [ 'name', 'city' ]
+    valueNames: [ 'name', 'id', 'unicode', 'created', 'categories' ]
   };
 
-  var hackerList = new List('hacker-list', options);
-}
+  var fonts = new List('fonts', options);
+});

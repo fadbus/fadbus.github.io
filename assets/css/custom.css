@@ -68,11 +68,15 @@ h1 small { padding-left: 15px; }
 
 .horizontal-padding-large { padding: 48px 0 96px 0; }
 
-.background-color-eee { background-color: #eee; }
+.background-color-eee { background-color: #eeeeee; }
 
 .forkme { position: absolute; top: 0; right: 0; border: 0; width: 125px; height: 125px; z-index: 10000; }
 
-input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow: none; box-shadow: none; border: 3px solid #eee; font-size: 18px; padding: 12px 20px 12px 10px; font-weight: 400; }
+.font-list-header { font-weight: 800; padding: 8px 0 8px 0; margin-bottom: 16px; border-bottom: 3px solid #eeeeee; }
+
+.font-list-rows { padding: 8px 0 8px 0; }
+
+input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow: none; box-shadow: none; border: 3px solid #eeeeee; font-size: 18px; padding: 12px 20px 12px 10px; font-weight: 400; }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* responsive
