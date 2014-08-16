@@ -72,6 +72,8 @@ h1 small { padding-left: 15px; }
 
 .forkme { position: absolute; top: 0; right: 0; border: 0; width: 125px; height: 125px; z-index: 10000; }
 
+input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow: none; box-shadow: none; border: 3px solid #eee; font-size: 18px; padding: 12px 20px 12px 10px; font-weight: 400; }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* responsive
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
