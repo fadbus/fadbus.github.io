@@ -22,7 +22,7 @@
 
 html, body { height: 100%; }
 
-body { background-color: #f9f9f9; font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
+body { padding-top: 50px; font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 600; font-family: "Arvo", Times, serif; }
 
@@ -41,7 +41,7 @@ a:visited { color: #00a; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .container { width: 1024px; }
 
-.navbar-default .navbar-brand { color: #bf9000; }
+.navbar-default .navbar-brand { color: #bf9000; font-size: 30px; font-weight: 100; text-shadow: 1px 1px 1px #000; }
 
 #footer { margin-bottom: 20px; }
 
@@ -49,7 +49,7 @@ a:visited { color: #00a; }
 
 .navbar { font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
 
-.navbar-default { background-color: #fff; border-color: transparent; }
+.navbar-default { background-color: #fff; border-bottom: 1px solid #aaa; }
 
 h1 small { padding-left: 15px; }
 
