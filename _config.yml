@@ -13,4 +13,4 @@ paginate_path: /page:num
 timezone: null
 
 repo: "https://github.com/fadbus/fadbus.github.io"
-gacode: "UA-53524614-1"
+gacode: "UA-placeholder-1"

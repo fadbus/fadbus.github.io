@@ -6,12 +6,24 @@ layout: default
 
   <div class="row font-list-header">
 
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">Icon</div>
-    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">Name</div>
-    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">Class</div>
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">Unicode</div>
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">Version</div>
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 hidden-xs hidden-sm">Categories</div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+      <span class="sort" data-sort="icon">Icon</span>
+    </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      <span class="sort" data-sort="name">Name</span>
+    </div>
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <span class="sort" data-sort="class">Class</span>
+    </div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
+      <span class="sort" data-sort="unicode">Unicode</span>
+    </div>
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
+      <span class="sort" data-sort="version">Version</span>
+    </div>
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 hidden-xs hidden-sm">
+      <span class="sort" data-sort="categories">Categories</span>
+    </div>
 
   </div><!-- /.font-list-header -->
 
@@ -21,21 +33,21 @@ layout: default
     <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
       <a href="/font/{{ font.id }}"><i class="fa {{ font.prefix }}{{ font.id }}"></i></a>
     </div>
-    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 font-name">
-      {{ font.name }}
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+      <span class="name">{{ font.name }}</span>
       <span class="hidden">{{ font.meta }}</span>
     </div>
-    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 font-id">
-      {{ font.prefix }}{{ font.id }}
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <span class="class">{{ font.prefix }}{{ font.id }}</span>
     </div>
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm font-unicode">
-      {{ font.unicode }}&nbsp;
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
+      <span class="unicode">{{ font.unicode }}&nbsp;</span>
     </div>
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm font-created">
-      {{ font.created }}&nbsp;
+    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
+      <span class="version">{{ font.created }}&nbsp;</span>
     </div>
-    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 hidden-xs hidden-sm font-categories">
-      {{ font.categories }}&nbsp;
+    <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 hidden-xs hidden-sm">
+      <span class="categories">{{ font.categories }}&nbsp;</span>
     </div>
 
   </div><!-- /.font-list-rows -->
