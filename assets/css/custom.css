@@ -41,6 +41,8 @@ a:visited { color: #00a; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .container { width: 1024px; }
 
+.row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; }
+
 .navbar-default .navbar-brand { color: #bf9000; font-size: 30px; font-weight: 100; text-shadow: 1px 1px 1px #000; }
 
 #footer { margin-bottom: 20px; }
@@ -65,3 +67,5 @@ h1 small { padding-left: 15px; }
 .horizontal-padding-medium { padding: 24px 0 24px 0; }
 
 .horizontal-padding-large { padding: 48px 0 96px 0; }
+
+.background-color-aaa { background-color: #aaa; }
