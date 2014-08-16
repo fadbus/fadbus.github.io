@@ -1,7 +1,26 @@
-$(function () {
-  var options = {
-    valueNames: [ 'name', 'id', 'unicode', 'created', 'categories' ]
-  };
 
-  var fonts = new List('fonts', options);
+// $(function () {
+//   var options = {
+//     valueNames: [ 'font-name', 'font-id', 'font-unicode', 'font-created', 'font-categories' ]
+//   };
+
+//   var fonts = new List('fonts', options);
+// });
+
+
+
+$(document).ready(function(){
+
+    // find filter
+    $('input#font-filter-box').quicksearch('.list', {
+        'delay': 500,
+        'bind': 'keyup keydown',
+        'onBefore': function () {
+            clearDisplay();
+        }
+    });
+
+    function clearDisplay () {
+        // $('.something').empty().hide();
+    }
 });
