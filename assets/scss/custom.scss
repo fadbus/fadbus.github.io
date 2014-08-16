@@ -1,0 +1,115 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* font imports
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/*script*/
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+/*sans serif*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/*serif*/
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+
+/*monospace*/
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* global variables */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/*variables -- fonts*/
+$monoSpaceFont: Inconsolata, Courier, monospace;
+$serifFont: 'Arvo', Times, serif;
+$sansSerifFont: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$scriptFont: 'Lobster';
+
+/*variables -- sizes*/
+
+/*variables -- colors*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* resets
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+body {
+  background-color: #f9f9f9;
+  font-family: $sansSerifFont;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: $serifFont;
+}
+
+h1 { margin-bottom: 1em; }
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 1em;
+}
+
+a { color: #00a; }
+a:hover { color: #00a; }
+a:visited { color: #00a; }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Bootstrap overrides
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container {
+  width: 1024px;
+}
+
+.navbar-default .navbar-brand {
+  color: #bf9000;
+}
+
+#footer {
+  margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+}
+
+.jumbotron {
+  
+}
+
+.lead {
+
+}
+
+.page-header {
+  border-bottom: none;
+}
+
+.navbar {
+  font-family: $sansSerifFont;
+}
+
+.navbar-default {
+  background-color: #fff;
+  border-color: transparent;
+}
+
+h1 small {
+  padding-left: 15px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* FontAwesome overrides
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#font-filter {
+  margin-bottom: 24px;
+}

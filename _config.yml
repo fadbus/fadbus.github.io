@@ -1,10 +1,13 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
+title: "FontAwesome Metabase"
+email: "dereknutile@gmail.com"
+description: "Filterable database of <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">FontAwesome</a> icons."
+tagline: "Find your FontAwesome font easily."
+baseurl: "/"
+url: "http://fadb.us/"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gacode: "UA-53524614-1"
