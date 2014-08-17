@@ -27,7 +27,8 @@ layout: default
 
   </div><!-- /.font-list-header -->
 
-  {% for font in site.data.fonts %}
+  {% assign fonts = site.data.fonts | sort: 'name' %}
+  {% for font in fonts %}
   <div class="row font-list-rows list">
 
     <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
