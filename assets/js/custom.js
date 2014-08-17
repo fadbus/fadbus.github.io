@@ -11,6 +11,10 @@
 
 $(document).ready(function(){
 
+    $("[rel=tooltip]").tooltip({
+        animation: true,
+    });
+
     // find filter
     $('input#font-filter-box').quicksearch('.list', {
         'delay': 500,

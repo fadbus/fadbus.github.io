@@ -112,6 +112,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #aaa;
 }
 
+.tooltip-inner {
+  width: 400px;
+  min-width: 400px;
+}
+
 h1 small {
   padding-left: 15px;
 }

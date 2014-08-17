@@ -53,6 +53,8 @@ a:visited { color: #00a; }
 
 .navbar-default { background-color: #fff; border-bottom: 1px solid #aaa; }
 
+.tooltip-inner { width: 400px; min-width: 400px; }
+
 h1 small { padding-left: 15px; }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

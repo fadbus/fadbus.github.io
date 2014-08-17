@@ -5,6 +5,7 @@ description: "Filterable database of FontAwesome icons."
 tagline: "Find your FontAwesome font easily."
 baseurl: "/"
 url: "http://fadb.us/"
+fontAwesomeFontBaseUrl: "http://fortawesome.github.io/Font-Awesome/icon/"
 
 # Build settings
 markdown: kramdown
