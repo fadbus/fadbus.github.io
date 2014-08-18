@@ -1,5 +1,6 @@
 # Site settings
 title: "FontAwesome DataBase"
+shortTitle: "FADB"
 email: "dereknutile@gmail.com"
 description: "Filterable database of FontAwesome icons."
 tagline: "Find your FontAwesome font easily."
