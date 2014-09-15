@@ -3,5 +3,5 @@
   "description": "FontAwesome Database Filter",
   "source": "https://github.com/FortAwesome/Font-Awesome/tree/gh-pages/icons.yml",
   "datasource": "FontAwesome/icons.yml"
-  "destination": "_data/fa.yaml",
+  "destination": "_data/fontawesome.yaml",
 }
