@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include framing/head.html %}
 
   <body>
 
-  {% include header.html %}
-  {% include navigation.html %}
-  {% comment %}{% include forkme.html %}{% endcomment %}
-  {% include about.html %}
+  {% include framing/header.html %}
+  {% include menus/navigation.html %}
+  {% comment %}{% include blocks/forkme.html %}{% endcomment %}
+  {% include sections/about.html %}
 
   <div class="fonts">
-  {% include searchbox.html %}
+  {% include sections/searchbox.html %}
 
   <section class="main-content-section">
   <div class="palette">
@@ -26,7 +26,7 @@
   </div><!-- /.main-content-section -->
   </div><!-- /.list -->
 
-  {% include footer.html %}
+  {% include framing/footer.html %}
 
   </body>
 </html>
