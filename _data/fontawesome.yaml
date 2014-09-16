@@ -499,7 +499,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "write lead number"
+    meta: "write lead number paint mark"
 
   - name: "map-marker"
     id: "map-marker"
@@ -507,7 +507,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "location locale direction point topology globe"
 
   - name: "adjust"
     id: "adjust"
@@ -515,7 +515,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "tweak half alter tune fix modify"
 
   - name: "tint"
     id: "tint"
@@ -523,7 +523,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "drop hue glow color tinge dye stain"
 
   - name: "Pencil Square Outlined"
     id: "pencil-square-o"
@@ -533,7 +533,7 @@ icons:
       - "edit"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "write lead number paint mark"
 
   - name: "Share Square Outlined"
     id: "share-square-o"
@@ -541,7 +541,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "arrow right divide partner meed"
 
   - name: "Check Square Outlined"
     id: "check-square-o"
@@ -559,7 +559,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Directional Icons"
-    meta: ""
+    meta: "cursor dart direction point indicate four"
 
   - name: "step-backward"
     id: "step-backward"
@@ -567,7 +567,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "rewind vcr dvr camera audio slow single arrow"
 
   - name: "fast-backward"
     id: "fast-backward"
@@ -575,7 +575,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "rewind vcr dvr camera audio fast double arrow"
 
   - name: "backward"
     id: "backward"
@@ -583,7 +583,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "rewind vcr dvr camera audio fast double arrow"
 
   - name: "play"
     id: "play"
@@ -591,7 +591,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "vcr dvr camera audio go start"
 
   - name: "pause"
     id: "pause"
@@ -599,7 +599,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "vcr dvr camera audio halt stop wait"
 
   - name: "stop"
     id: "stop"
@@ -607,7 +607,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "vcr dvr camera audio halt stop"
 
   - name: "forward"
     id: "forward"
@@ -615,7 +615,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "vcr dvr camera audio go play ahead fast skip"
 
   - name: "fast-forward"
     id: "fast-forward"
@@ -623,7 +623,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "vcr dvr camera audio go play ahead fast skip"
 
   - name: "step-forward"
     id: "step-forward"
@@ -631,7 +631,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "vcr dvr camera audio go play ahead fast skip"
 
   - name: "eject"
     id: "eject"
@@ -639,7 +639,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "vcr dvr camera audio up arrow"
 
   - name: "chevron-left"
     id: "chevron-left"
@@ -647,7 +647,7 @@ icons:
     created: 1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "direction arrow navigation"
 
   - name: "chevron-right"
     id: "chevron-right"
@@ -655,7 +655,7 @@ icons:
     created: 1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "direction arrow navigation"
 
   - name: "Plus Circle"
     id: "plus-circle"
@@ -663,7 +663,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "add addition positive more"
 
   - name: "Minus Circle"
     id: "minus-circle"
@@ -671,7 +671,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "subtract take away negative less"
 
   - name: "Times Circle"
     id: "times-circle"
@@ -695,7 +695,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "hook ask query"
 
   - name: "Info Circle"
     id: "info-circle"
@@ -703,7 +703,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "news note idea"
 
   - name: "Crosshairs"
     id: "crosshairs"
@@ -711,7 +711,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "scope target shoot zoom"
 
   - name: "Times Circle Outlined"
     id: "times-circle-o"
@@ -735,7 +735,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "boycott restrict kick disallow refuse"
 
   - name: "arrow-left"
     id: "arrow-left"
@@ -743,7 +743,7 @@ icons:
     created: 1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "pointer cursor direction navigation motion"
 
   - name: "arrow-right"
     id: "arrow-right"
@@ -751,7 +751,7 @@ icons:
     created: 1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "pointer cursor direction navigation motion"
 
   - name: "arrow-up"
     id: "arrow-up"
@@ -759,7 +759,7 @@ icons:
     created: 1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "pointer cursor direction navigation motion"
 
   - name: "arrow-down"
     id: "arrow-down"
@@ -767,7 +767,7 @@ icons:
     created: 1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "pointer cursor direction navigation motion"
 
   - name: "Share"
     id: "share"
@@ -777,7 +777,7 @@ icons:
       - "mail-forward"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "arrow right divide partner meed"
 
   - name: "Expand"
     id: "expand"
@@ -785,7 +785,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "arrows embiggen grow zoom widen spread large enlarge increase"
 
   - name: "Compress"
     id: "compress"
@@ -793,7 +793,7 @@ icons:
     created: 1
     categories:
       - "Video Player Icons"
-    meta: ""
+    meta: "arrows pinch lessen squeeze shrink constrict reduce"
 
   - name: "plus"
     id: "plus"
@@ -801,7 +801,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "add addition positive more"
 
   - name: "minus"
     id: "minus"
@@ -809,7 +809,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "subtract take away negative less"
 
   - name: "asterisk"
     id: "asterisk"
@@ -817,7 +817,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "star note symbol mark text annotate"
 
   - name: "Exclamation Circle"
     id: "exclamation-circle"
@@ -825,7 +825,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "remark alert anger surprise pain"
 
   - name: "gift"
     id: "gift"
@@ -875,7 +875,7 @@ icons:
       - "warning"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "remark alert anger surprise pain"
 
   - name: "plane"
     id: "plane"
@@ -923,7 +923,7 @@ icons:
     created: 1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "direction arrow navigation"
 
   - name: "chevron-down"
     id: "chevron-down"
@@ -931,7 +931,7 @@ icons:
     created: 1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "direction arrow navigation"
 
   - name: "retweet"
     id: "retweet"
@@ -972,7 +972,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Directional Icons"
-    meta: ""
+    meta: "cursor dart direction point indicate two"
 
   - name: "Arrows Horizontal"
     id: "arrows-h"
@@ -981,7 +981,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Directional Icons"
-    meta: ""
+    meta: "cursor dart direction point indicate two"
 
   - name: "Bar Chart Outlined"
     id: "bar-chart-o"
@@ -1369,7 +1369,7 @@ icons:
     categories:
       - "Video Player Icons"
       - "Directional Icons"
-    meta: ""
+    meta: "cursor dart direction point indicate four"
 
   - name: "Users"
     id: "users"
@@ -1884,7 +1884,7 @@ icons:
       - "Medical Icons"
       - "Web Application Icons"
       - "Form Control Icons"
-    meta: ""
+    meta: "add addition positive more"
 
   - name: "Angle Double Left"
     id: "angle-double-left"
@@ -2210,7 +2210,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "remark alert anger surprise pain"
 
   - name: "superscript"
     id: "superscript"
@@ -2218,7 +2218,7 @@ icons:
     created: 3.1
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "letter number above power square math"
 
   - name: "subscript"
     id: "subscript"
@@ -2226,7 +2226,7 @@ icons:
     created: 3.1
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "letter number below root math"
 
   - name: "eraser"
     id: "eraser"
@@ -2235,7 +2235,7 @@ icons:
     categories:
       - "Text Editor Icons"
       - "Web Application Icons"
-    meta: ""
+    meta: "delete expunge negate remove kill undo trim"
 
   - name: "Puzzle Piece"
     id: "puzzle-piece"
@@ -2243,7 +2243,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "toy flummox perplex question"
 
   - name: "microphone"
     id: "microphone"
@@ -2251,7 +2251,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "audio mic music sound"
 
   - name: "Microphone Slash"
     id: "microphone-slash"
@@ -2259,7 +2259,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "audio mic music sound silence quiet mute"
 
   - name: "shield"
     id: "shield"
@@ -2267,7 +2267,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "defend protect secure armor"
 
   - name: "calendar-o"
     id: "calendar-o"
@@ -2307,7 +2307,7 @@ icons:
     created: 3.1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "direction arrow navigation"
 
   - name: "Chevron Circle Right"
     id: "chevron-circle-right"
@@ -2315,7 +2315,7 @@ icons:
     created: 3.1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "direction arrow navigation"
 
   - name: "Chevron Circle Up"
     id: "chevron-circle-up"
@@ -2323,7 +2323,7 @@ icons:
     created: 3.1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "direction arrow navigation"
 
   - name: "Chevron Circle Down"
     id: "chevron-circle-down"
@@ -2331,7 +2331,7 @@ icons:
     created: 3.1
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "direction arrow navigation"
 
   - name: "HTML 5 Logo"
     id: "html5"
@@ -2420,7 +2420,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Form Control Icons"
-    meta: ""
+    meta: "subtract take away negative less"
 
   - name: "Minus Square Outlined"
     id: "minus-square-o"
@@ -2429,7 +2429,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Form Control Icons"
-    meta: ""
+    meta: "subtract take away negative less"
 
   - name: "Level Up"
     id: "level-up"
@@ -2462,7 +2462,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "write lead number paint mark"
 
   - name: "External Link Square"
     id: "external-link-square"
@@ -2478,7 +2478,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "arrow right divide partner meed"
 
   - name: "Compass"
     id: "compass"
@@ -3060,7 +3060,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Form Control Icons"
-    meta: ""
+    meta: "add addition positive more"
 
   - name: "Space Shuttle"
     id: "space-shuttle"
@@ -3657,7 +3657,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Brand Icons"
-    meta: ""
+    meta: "branch finger divide partner meed"
 
   - name: "Share Alt Square"
     id: "share-alt-square"
@@ -3666,7 +3666,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Brand Icons"
-    meta: ""
+    meta: "branch finger divide partner meed"
 
   - name: "Bomb"
     id: "bomb"
