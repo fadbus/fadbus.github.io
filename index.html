@@ -7,7 +7,7 @@ header: "Font Filter"
 
 <div class="container horizontal-padding-medium">
 
-  <div class="row font-list-header">
+  <!-- <div class="row font-list-header">
 
     <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
       <span class="sort" data-sort="icon">Icon</span>
@@ -28,34 +28,65 @@ header: "Font Filter"
       <span class="sort" data-sort="categories">Categories</span>
     </div>
 
-  </div><!-- /.font-list-header -->
+  </div> --><!-- /.font-list-header -->
 
   {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
   {% for font in fonts %}
-  <div class="row font-list-rows list">
+  <div class="font-list-rows list">
+    <div class="col-md-6">
+      <table class="table card borderless">
+        <tr class="icon">
+          <td colspan="2"><i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i></td>
+        </tr>
+      <tr class="icon-name">
+          <td colspan="2"><span class="name">{{ font.name }}</span></td>
+        </tr>
+        <tr class="icon-code">
+          <td colspan="2">snippet code</td>
+        </tr>
+        <tr class="icon-class">
+          <td class="meta">class:</td>
+          <td class="class-value"><span class="class">{{ site.data.fontawesome.prefix }}{{ font.id }}</span></td>
+        </tr>
+        <tr class="icon-unicode">
+          <td class="meta">unicode:</td>
+          <td class="unicode-value"><span class="unicode">{{ font.unicode }}</span></td>
+        </tr>
+        <tr class="icon-version">
+          <td class="meta">version:</td>
+          <td class="version-value"><span class="version">{{ font.created }}</span></td>
+        </tr>
+        <!-- <tr class="icon-family">
+          <td class="family">font-family:</td>
+          <td class="family-value"></td>
+        </tr> -->
+        <tr class="icon-category">
+          <td class="meta">categories:</td>
+          <td class="category-value"><span class="categories">{{ font.categories }}</span></td>
+        </tr>
+        <tr class="icon-link">
+          <td colspan="2"><a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome</a></td>
+        </tr>
+      </table>
+      
+      <!-- <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
+        <span class="name">{{ font.name }}</span>
+        <span class="hidden">{{ font.meta }}</span>
+      </div>
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+        <span class="class">{{ site.data.fontawesome.prefix }}{{ font.id }}</span>
+      </div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
+        <span class="unicode">{{ font.unicode }}&nbsp;</span>
+      </div>
+      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
+        <span class="version">{{ font.created }}&nbsp;</span>
+      </div>
+      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 hidden-xs hidden-sm">
+        <span class="categories">{{ font.categories }}&nbsp;</span>
+      </div> -->
 
-    <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-      <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">
-        <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
-      </a>
     </div>
-    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
-      <span class="name">{{ font.name }}</span>
-      <span class="hidden">{{ font.meta }}</span>
-    </div>
-    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-      <span class="class">{{ site.data.fontawesome.prefix }}{{ font.id }}</span>
-    </div>
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
-      <span class="unicode">{{ font.unicode }}&nbsp;</span>
-    </div>
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
-      <span class="version">{{ font.created }}&nbsp;</span>
-    </div>
-    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 hidden-xs hidden-sm">
-      <span class="categories">{{ font.categories }}&nbsp;</span>
-    </div>
-
   </div><!-- /.font-list-rows -->
   {% endfor %}
 

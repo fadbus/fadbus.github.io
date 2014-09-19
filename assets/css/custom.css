@@ -2,11 +2,11 @@
 /* font imports
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*script*/
-@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 /*sans serif*/
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500);
 /*serif*/
-@import url(http://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
 /*monospace*/
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -22,13 +22,13 @@
 
 html, body { height: 100%; }
 
-body { padding-top: 50px; font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
+body { background-color:#f5f5f5; padding-top: 50px; font-family: "Roboto", Helvetica, Arial, sans-serif; }
 
-h1, h2, h3, h4, h5, h6 { font-weight: 600; font-family: "Arvo", Times, serif; }
+h1, h2, h3, h4, h5, h6 { font-weight: 600; font-family: "Roboto Slab", Times, serif; }
 
 h1 { margin-bottom: 1em; }
 
-p { font-size: 18px; line-height: 24px; margin-bottom: 1em; }
+p { font-size: 18px; line-height: 29px; margin-bottom: 1em; font-weight:300;}
 
 a { color: #00a; }
 
@@ -39,9 +39,9 @@ a:visited { color: #00a; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Bootstrap overrides
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.container { width: 1024px; }
+.container { width: 1024px; padding:0; }
 
-.row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; }
+.row { margin-left: 0px; margin-right: 0px; padding: 0 0px 0 0px; }
 
 .navbar-default .navbar-brand { color: #bf9000; font-size: 30px; font-weight: 100; text-shadow: 1px 1px 1px #000; }
 
@@ -57,9 +57,82 @@ a:visited { color: #00a; }
 
 h1 small { padding-left: 15px; }
 
+.col-md-6 {
+	padding:0 3em 0 0;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* custom styles
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.home-section {
+	background-color: #0033cc;
+	background-image: url(/assets/img/fadbus_bg.png);
+	color:#fff;
+	padding: 4em 0 6em 0;
+}
+.logo {
+	padding:4em 0 2em 0;
+}
+.logo h1 {
+	color:#33ff99;
+	font-family: 'Permanent Marker', sans-serif;
+	font-size:5em;
+	line-height: 1em;
+	margin-bottom: 0;
+
+}
+.logo p {
+	font-size:1.3em;
+	font-weight: 100;
+}
+
+
+.card tbody tr td, .card thead tr th {
+  border: none;
+}
+.card {
+	background-color: #fff;
+	color: #666;
+	margin-bottom:4em;
+	border:1px solid #ccc;
+}
+
+.card .icon {
+	font-size: 7em;	
+	text-align: center;
+
+}
+.card .icon-name {
+	font-size:2em;
+	text-align: center;
+}
+.card .icon-code {
+	background-color: #efefef;
+	text-align: center;
+}
+.card .meta {
+	text-align: right;
+	padding-right: 1em;
+}
+.card .icon-link {
+	text-align: center;
+
+}
+
+.searchbox-section {
+	background-color: none;
+}
+
+.searchbox-section h2 {
+	font-size: 2em;
+	font-weight: 300;
+	text-align: right;
+	padding-top: 14px;
+}
+
+#mc_embed_signup{clear:left; font:14px 'roboto',Helvetica,Arial,sans-serif; }
+
 #font-filter { margin-bottom: 24px; }
 
 .footer-wrapper { border-top: 1px solid #aaa; margin-top: 24px; padding-top: 12px; }
@@ -76,9 +149,9 @@ h1 small { padding-left: 15px; }
 
 .font-list-header { font-weight: 800; padding: 8px 0 8px 0; margin-bottom: 16px; border-bottom: 3px solid #eeeeee; }
 
-.font-list-rows { padding: 8px 0 8px 0; border-bottom: 1px dashed #c8c8c8; }
+.font-list-rows { padding: 0; }
 
-input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow: none; box-shadow: none; border: 3px solid #eeeeee; font-size: 18px; padding: 12px 20px 12px 10px; font-weight: 400; }
+input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow: none; box-shadow: none; border: 3px solid #eeeeee; font-size: 18px; padding: 12px 20px 12px 10px; font-weight: 300; }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* responsive
