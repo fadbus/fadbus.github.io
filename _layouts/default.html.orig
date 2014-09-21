@@ -12,10 +12,16 @@
   <div class="fonts">
   {% include sections/about.html %}
 
+<<<<<<< HEAD
+<!-- Save for nav
+{% comment %}{% include sections/searchbox.html %}{% endcomment %}
+ -->
+=======
 {% comment %}
 <!-- Save for nav -->
 {% include sections/searchbox.html %}
 {% endcomment %}
+>>>>>>> 0e448585f8f587049310249fd0586763a22c4d4f
 
  <section class="main-content-section">
   <div class="palette">
