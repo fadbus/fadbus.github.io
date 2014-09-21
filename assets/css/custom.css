@@ -97,7 +97,9 @@ h1 small { padding-left: 15px; }
 	margin-bottom:4em;
 	border:1px solid #ccc;
 }
-
+.card .row {
+	height:2em;
+}
 .card .icon {
 	font-size: 7em;	
 	text-align: center;
