@@ -833,7 +833,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "present package bow box surprise"
 
   - name: "leaf"
     id: "leaf"
@@ -841,7 +841,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "leaf green plant branch ivy"
 
   - name: "fire"
     id: "fire"
@@ -849,7 +849,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "flame heat hot burn"
 
   - name: "Eye"
     id: "eye"
@@ -857,7 +857,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "iris pupil blink visible view look watch see"
 
   - name: "Eye Slash"
     id: "eye-slash"
@@ -865,7 +865,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "iris pupil blink blind hide hidden"
 
   - name: "Exclamation Triangle"
     id: "exclamation-triangle"
@@ -883,7 +883,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "fly travel ship send air flight"
 
   - name: "calendar"
     id: "calendar"
@@ -891,7 +891,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "date schedule day month year time"
 
   - name: "random"
     id: "random"
@@ -899,7 +899,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "arrows aimless odd mixed"
 
   - name: "comment"
     id: "comment"
@@ -907,7 +907,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "talk communicate bubble word remark note mention social dialog"
 
   - name: "magnet"
     id: "magnet"
@@ -915,7 +915,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "attract pull hook connect"
 
   - name: "chevron-up"
     id: "chevron-up"
@@ -939,7 +939,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "twitter copy forward"
 
   - name: "shopping-cart"
     id: "shopping-cart"
@@ -947,7 +947,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "basket checkout bin purchase quote list"
 
   - name: "Folder"
     id: "folder"
@@ -955,7 +955,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "binder file pocket holder container case paper store"
 
   - name: "Folder Open"
     id: "folder-open"
@@ -963,7 +963,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "binder file pocket holder container case paper store"
 
   - name: "Arrows Vertical"
     id: "arrows-v"
@@ -989,7 +989,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "report analytics details data"
 
   - name: "Twitter Square"
     id: "twitter-square"
@@ -997,7 +997,7 @@ icons:
     created: 1
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social tweet talk micro blog"
 
   - name: "Facebook Square"
     id: "facebook-square"
@@ -1005,7 +1005,7 @@ icons:
     created: 1
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social wall post like"
 
   - name: "camera-retro"
     id: "camera-retro"
@@ -1021,7 +1021,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "unlock open fob basic fundamental tool"
 
   - name: "cogs"
     id: "cogs"
@@ -1039,7 +1039,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "talk communicate bubble word remark note mention social dialog"
 
   - name: "Thumbs Up Outlined"
     id: "thumbs-o-up"
@@ -1047,7 +1047,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "hand finger ok good pass allow go"
 
   - name: "Thumbs Down Outlined"
     id: "thumbs-o-down"
@@ -1055,7 +1055,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "hand finger bad fail no stop"
 
   - name: "star-half"
     id: "star-half"
@@ -1071,7 +1071,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "love lust like organ beat thump blood"
 
   - name: "Sign Out"
     id: "sign-out"
@@ -1079,7 +1079,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "logout quit stop leave end done"
 
   - name: "LinkedIn Square"
     id: "linkedin-square"
@@ -1087,7 +1087,7 @@ icons:
     created: 1
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social business connect"
 
   - name: "Thumb Tack"
     id: "thumb-tack"
@@ -1095,7 +1095,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "post stick nail attach note tool"
 
   - name: "External Link"
     id: "external-link"
@@ -1103,7 +1103,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "tab url html web sitea"
 
   - name: "Sign In"
     id: "sign-in"
@@ -1111,7 +1111,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "login enter start join begin"
 
   - name: "trophy"
     id: "trophy"
@@ -1119,7 +1119,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "award goblet gold win"
 
   - name: "GitHub Square"
     id: "github-square"
@@ -1127,7 +1127,7 @@ icons:
     created: 1
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social programming code octo cat"
 
   - name: "Upload"
     id: "upload"
@@ -1135,7 +1135,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "file zip cloud"
 
   - name: "Lemon Outlined"
     id: "lemon-o"
@@ -1143,7 +1143,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "fruit citrus fail bad yellow"
 
   - name: "Phone"
     id: "phone"
@@ -1685,7 +1685,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "talk communicate bubble word remark note mention social dialog"
 
   - name: "comments-o"
     id: "comments-o"
@@ -1693,7 +1693,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "talk communicate bubble word remark note mention social dialog"
 
   - name: "Lightning Bolt"
     id: "bolt"
@@ -1761,7 +1761,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "file zip"
 
   - name: "user-md"
     id: "user-md"
@@ -2275,7 +2275,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "date schedule day month year time"
 
   - name: "fire-extinguisher"
     id: "fire-extinguisher"
@@ -2283,7 +2283,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "flame heat hot burn"
 
   - name: "rocket"
     id: "rocket"
@@ -2675,7 +2675,7 @@ icons:
     created: 3.2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "hand finger ok good pass allow go"
 
   - name: "thumbs-down"
     id: "thumbs-down"
@@ -2683,7 +2683,7 @@ icons:
     created: 3.2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "hand finger bad fail no stop"
 
   - name: "YouTube Square"
     id: "youtube-square"
