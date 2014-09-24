@@ -997,7 +997,7 @@ icons:
     created: 1
     categories:
       - "Brand Icons"
-    meta: "social tweet talk micro blog"
+    meta: "social tweet retweet bird micro blog"
 
   - name: "Facebook Square"
     id: "facebook-square"
@@ -1151,7 +1151,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "talk communicate call cell chat connect"
 
   - name: "Square Outlined"
     id: "square-o"
@@ -1160,7 +1160,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Form Control Icons"
-    meta: ""
+    meta: "box empty"
 
   - name: "Bookmark Outlined"
     id: "bookmark-o"
@@ -1168,7 +1168,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "hold place ribbon read paper save"
 
   - name: "Phone Square"
     id: "phone-square"
@@ -1176,7 +1176,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "talk communicate call cell chat connect"
 
   - name: "Twitter"
     id: "twitter"
@@ -1184,7 +1184,7 @@ icons:
     created: 2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social tweet retweet bird micro blog"
 
   - name: "Facebook"
     id: "facebook"
@@ -1192,7 +1192,7 @@ icons:
     created: 2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social wall post like"
 
   - name: "GitHub"
     id: "github"
@@ -1200,7 +1200,7 @@ icons:
     created: 2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social programming code octo cat"
 
   - name: "unlock"
     id: "unlock"
@@ -1208,7 +1208,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "padlock secure security protect defend open allow"
 
   - name: "credit-card"
     id: "credit-card"
@@ -1216,7 +1216,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "commerce currency buy purchase visa mastercard discover"
 
   - name: "rss"
     id: "rss"
@@ -1224,7 +1224,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "syndicate feed blog posts"
 
   - name: "HDD"
     id: "hdd-o"
@@ -1232,7 +1232,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "data disks"
 
   - name: "bullhorn"
     id: "bullhorn"
@@ -1240,7 +1240,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "shout loud alert talk yell bellow"
 
   - name: "bell"
     id: "bell"
@@ -1248,7 +1248,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "ding chime sound"
 
   - name: "certificate"
     id: "certificate"
@@ -1256,7 +1256,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "official award star"
 
   - name: "Hand Outlined Right"
     id: "hand-o-right"
@@ -1264,7 +1264,7 @@ icons:
     created: 2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "nav glove fingers point here"
 
   - name: "Hand Outlined Left"
     id: "hand-o-left"
@@ -1272,7 +1272,7 @@ icons:
     created: 2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "nav glove fingers point here"
 
   - name: "Hand Outlined Up"
     id: "hand-o-up"
@@ -1280,7 +1280,7 @@ icons:
     created: 2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "nav glove fingers point here"
 
   - name: "Hand Outlined Down"
     id: "hand-o-down"
@@ -1288,7 +1288,7 @@ icons:
     created: 2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "nav glove fingers point here"
 
   - name: "Arrow Circle Left"
     id: "arrow-circle-left"
@@ -1982,7 +1982,7 @@ icons:
       - "mobile-phone"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "talk communicate call cell chat connect"
 
   - name: "Circle Outlined"
     id: "circle-o"
@@ -2043,7 +2043,7 @@ icons:
     created: 3
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social programming code octo cat"
 
   - name: "Folder Outlined"
     id: "folder-o"
