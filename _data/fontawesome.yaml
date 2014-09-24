@@ -195,7 +195,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "street long path highway freeway car truck bicycle commute drive run"
+    meta: "automobile street long path highway freeway car truck bicycle commute drive run"
 
   - name: "Download"
     id: "download"
@@ -1328,7 +1328,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "planet earth world map location"
 
   - name: "Wrench"
     id: "wrench"
@@ -1336,7 +1336,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "tool fix adjust settings"
 
   - name: "Tasks"
     id: "tasks"
@@ -1344,7 +1344,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "notes lists items checklist"
 
   - name: "Filter"
     id: "filter"
@@ -1352,7 +1352,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "refine sift narrow scope"
 
   - name: "Briefcase"
     id: "briefcase"
@@ -1360,7 +1360,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "business bag baggage folder paperwork"
 
   - name: "Arrows Alt"
     id: "arrows-alt"
@@ -1381,7 +1381,6 @@ icons:
       - "Web Application Icons"
     meta: "customer client visitor guest person man men boy woman women girl human group crowd"
 
-
   - name: "Link"
     id: "link"
     unicode: "f0c1"
@@ -1390,7 +1389,7 @@ icons:
       - "chain"
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "hyperlink url chain"
 
   - name: "Cloud"
     id: "cloud"
@@ -1398,7 +1397,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "file zip get retrieve share web saas paas sky air weather"
 
   - name: "Flask"
     id: "flask"
@@ -1406,7 +1405,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "lab science bottle liquid drink"
 
   - name: "Scissors"
     id: "scissors"
@@ -1416,7 +1415,7 @@ icons:
       - "cut"
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "snip tool"
 
   - name: "Files Outlined"
     id: "files-o"
@@ -1426,7 +1425,7 @@ icons:
       - "copy"
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "papers pages documents duplicate xerox"
 
   - name: "Paperclip"
     id: "paperclip"
@@ -1434,7 +1433,7 @@ icons:
     created: 2
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "holder organize paper clippy"
 
   - name: "Floppy Outlined"
     id: "floppy-o"
@@ -1444,7 +1443,7 @@ icons:
       - "save"
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "disk drive storage"
 
   - name: "Square"
     id: "square"
@@ -1453,7 +1452,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Form Control Icons"
-    meta: ""
+    meta: "shape solid"
 
   - name: "Bars"
     id: "bars"
@@ -1464,7 +1463,7 @@ icons:
       - "reorder"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "nav expand lines horizontal three"
 
   - name: "list-ul"
     id: "list-ul"
@@ -1472,7 +1471,7 @@ icons:
     created: 2
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "unsorted unordered bullets tasks items checks"
 
   - name: "list-ol"
     id: "list-ol"
@@ -1480,7 +1479,7 @@ icons:
     created: 2
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "sorted ordered numeric tasks items"
 
   - name: "Strikethrough"
     id: "strikethrough"
@@ -1488,7 +1487,7 @@ icons:
     created: 2
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "delete cancel"
 
   - name: "Underline"
     id: "underline"
@@ -1496,7 +1495,7 @@ icons:
     created: 2
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "underscore"
 
   - name: "table"
     id: "table"
@@ -1504,7 +1503,7 @@ icons:
     created: 2
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "spreadsheet grid columns rows cells"
 
   - name: "magic"
     id: "magic"
@@ -1512,7 +1511,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "wand wizard"
 
   - name: "truck"
     id: "truck"
@@ -1520,7 +1519,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "street long path highway freeway car truck bicycle commute drive run automobile haul"
 
   - name: "Pinterest"
     id: "pinterest"
@@ -1528,7 +1527,7 @@ icons:
     created: 2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social images"
 
   - name: "Pinterest Square"
     id: "pinterest-square"
@@ -1536,7 +1535,7 @@ icons:
     created: 2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social images"
 
   - name: "Google Plus Square"
     id: "google-plus-square"
@@ -1544,7 +1543,7 @@ icons:
     created: 2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social network"
 
   - name: "Google Plus"
     id: "google-plus"
@@ -1552,7 +1551,7 @@ icons:
     created: 2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social network"
 
   - name: "Money"
     id: "money"
@@ -1561,7 +1560,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Currency Icons"
-    meta: ""
+    meta: "pay cash dollars"
 
   - name: "Caret Down"
     id: "caret-down"
