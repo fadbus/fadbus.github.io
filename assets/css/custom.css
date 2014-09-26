@@ -90,7 +90,6 @@ h1 small { padding-left: 15px; }
     -moz-border-radius: 50%; 
     -webkit-border-radius: 50%; 
     border-radius: 50%;
-    border: solid 4px #fff;
 }
 .circle-text div {
     float:left;
