@@ -71,15 +71,47 @@ h1 small { padding-left: 15px; }
 	color:#fff;
 	padding: 4em 0 6em 0;
 }
+.home-section .col-md-12 {
+	text-align: center;
+}
+
+.circle-text {
+    width:12%;
+    font-size: 5em; /*update this for mobile/responsive*/
+    margin: 0 auto;
+}
+.circle-text:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #33ff99; 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    border: solid 4px #fff;
+}
+.circle-text div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:#0033cc;
+}
+
+
 .logo {
-	padding:4em 0 2em 0;
+	padding:0em 0 2em oem;
 }
 .logo h1 {
 	color:#33ff99;
 	font-family: 'Permanent Marker', sans-serif;
 	font-size:5em;
 	line-height: 1em;
-	margin-bottom: 0;
+	margin: 0;
 
 }
 .logo p {
@@ -87,6 +119,16 @@ h1 small { padding-left: 15px; }
 	font-weight: 100;
 }
 
+.searchbox-section {
+	background-color: none;
+}
+
+.searchbox-section h2 {
+	font-size: 2em;
+	font-weight: 300;
+	text-align: right;
+	padding-top: 14px;
+}
 
 .card tbody tr td, .card thead tr th {
   border: none;
@@ -120,17 +162,6 @@ h1 small { padding-left: 15px; }
 .card .icon-link {
 	text-align: center;
 
-}
-
-.searchbox-section {
-	background-color: none;
-}
-
-.searchbox-section h2 {
-	font-size: 2em;
-	font-weight: 300;
-	text-align: right;
-	padding-top: 14px;
 }
 
 .mc-signup { margin: 1em 0; font:1em 'roboto',Helvetica,Arial,sans-serif; }
