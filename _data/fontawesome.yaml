@@ -7,7 +7,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "crystal wine drink dish goblet china"
+    meta: "crystals wine drinks dishes goblets china"
 
   - name: "Music"
     id: "music"
@@ -15,7 +15,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "tune beam note pitch rhythm tempo articulation"
+    meta: "tunes beams notes pitch rhythm tempo articulation"
 
   - name: "Search"
     id: "search"
@@ -23,7 +23,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "magnify glass look find filter google grok"
+    meta: "magnify glass look finds filters google groks"
 
   - name: "Envelope Outlined"
     id: "envelope-o"
@@ -31,7 +31,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "email e-mail send message"
+    meta: "emails e-mails sends messages"
 
   - name: "Heart"
     id: "heart"
@@ -39,7 +39,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "love lust like organ beat thump blood"
+    meta: "loves lusts likes organs beats thumps blood"
 
   - name: "Star"
     id: "star"
@@ -179,7 +179,7 @@ icons:
     categories:
       - "Text Editor Icons"
       - "File Type Icons"
-    meta: "new page document sheet"
+    meta: "new pages docs documents sheets"
 
   - name: "Clock Outlined"
     id: "clock-o"
@@ -695,7 +695,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "hook ask query"
+    meta: "hooks asks query helps"
 
   - name: "Info Circle"
     id: "info-circle"
@@ -703,7 +703,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "news note idea"
+    meta: "information advice news notes ideas about"
 
   - name: "Crosshairs"
     id: "crosshairs"
@@ -1425,7 +1425,7 @@ icons:
       - "copy"
     categories:
       - "Text Editor Icons"
-    meta: "papers pages documents duplicate xerox"
+    meta: "papers pages docs documents duplicates xerox"
 
   - name: "Paperclip"
     id: "paperclip"
@@ -2193,7 +2193,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "hooks asks query helps"
 
   - name: "Info"
     id: "info"
@@ -2201,7 +2201,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "information advice news notes ideas about"
 
   - name: "exclamation"
     id: "exclamation"
@@ -2242,7 +2242,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: "toy flummox perplex question"
+    meta: "toys flummox perplex questions asks helps"
 
   - name: "microphone"
     id: "microphone"
