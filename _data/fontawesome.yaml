@@ -955,7 +955,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "binder file pocket holder container case paper store"
+    meta: "binders files pockets holders containers cases papers stores documents docs"
 
   - name: "Folder Open"
     id: "folder-open"
@@ -963,7 +963,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "binder file pocket holder container case paper store"
+    meta: "binders files pockets holders containers cases papers stores documents docs"
 
   - name: "Arrows Vertical"
     id: "arrows-v"
