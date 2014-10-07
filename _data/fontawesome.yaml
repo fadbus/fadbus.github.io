@@ -1568,7 +1568,7 @@ icons:
     created: 2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "selectors dropdowns arrow expand collapse"
 
   - name: "Caret Up"
     id: "caret-up"
@@ -1576,7 +1576,7 @@ icons:
     created: 2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "selectors dropups arrow expand collapse"
 
   - name: "Caret Left"
     id: "caret-left"
@@ -1584,7 +1584,7 @@ icons:
     created: 2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "selectors arrow expand collapse"
 
   - name: "Caret Right"
     id: "caret-right"
@@ -1592,7 +1592,7 @@ icons:
     created: 2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "selectors arrow expand collapse"
 
   - name: "Columns"
     id: "columns"
@@ -1600,7 +1600,7 @@ icons:
     created: 2
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "tables grids"
 
   - name: "Sort"
     id: "sort"
@@ -1610,7 +1610,7 @@ icons:
       - "unsorted"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "order alphabetical arrows up down"
 
   - name: "Sort Descending"
     id: "sort-desc"
@@ -1620,7 +1620,7 @@ icons:
       - "sort-down"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "order alphabetical arrows up down"
 
   - name: "Sort Ascending"
     id: "sort-asc"
@@ -1630,7 +1630,7 @@ icons:
       - "sort-up"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "order alphabetical arrows up down"
 
   - name: "Envelope"
     id: "envelope"
@@ -1638,7 +1638,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "email send mail post"
 
   - name: "LinkedIn"
     id: "linkedin"
@@ -1646,7 +1646,7 @@ icons:
     created: 2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social business"
 
   - name: "Undo"
     id: "undo"
@@ -1656,7 +1656,7 @@ icons:
       - "rotate-left"
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "cancel reverse"
 
   - name: "Gavel"
     id: "gavel"
@@ -1666,7 +1666,7 @@ icons:
       - "legal"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "hammer order judge bang tool"
 
   - name: "Tachometer"
     id: "tachometer"
@@ -1676,7 +1676,7 @@ icons:
       - "dashboard"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "car speed redline fast"
 
   - name: "comment-o"
     id: "comment-o"
@@ -1702,7 +1702,7 @@ icons:
       - "flash"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "zap electric power"
 
   - name: "Sitemap"
     id: "sitemap"
@@ -1710,7 +1710,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "flowchart organization web"
 
   - name: "Umbrella"
     id: "umbrella"
@@ -1718,7 +1718,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "rain dry cover"
 
   - name: "Clipboard"
     id: "clipboard"
@@ -1728,7 +1728,7 @@ icons:
       - "paste"
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "temporary storage pboard cut copy paste"
 
   - name: "Lightbulb Outlined"
     id: "lightbulb-o"
@@ -1736,7 +1736,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "light bright power idea invention"
 
   - name: "Exchange"
     id: "exchange"
@@ -1744,7 +1744,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "transfer"
 
   - name: "Cloud Download"
     id: "cloud-download"
@@ -1768,7 +1768,7 @@ icons:
     created: 2
     categories:
       - "Medical Icons"
-    meta: ""
+    meta: "doctor pharmacist nurse heal fix mend health"
 
   - name: "Stethoscope"
     id: "stethoscope"
@@ -1776,7 +1776,7 @@ icons:
     created: 3
     categories:
       - "Medical Icons"
-    meta: ""
+    meta: "sound heart beat health"
 
   - name: "Suitcase"
     id: "suitcase"
@@ -1784,7 +1784,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "bag luggage"
 
   - name: "Bell Outlined"
     id: "bell-o"
@@ -1792,7 +1792,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "ring ding alert alarm"
 
   - name: "Coffee"
     id: "coffee"
@@ -1800,7 +1800,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "java joe mud caffeine"
 
   - name: "Cutlery"
     id: "cutlery"
@@ -1808,7 +1808,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "tools knives kitchen cut slice"
 
   - name: "File Text Outlined"
     id: "file-text-o"
@@ -1817,7 +1817,7 @@ icons:
     categories:
       - "Text Editor Icons"
       - "File Type Icons"
-    meta: ""
+    meta: "new pages docs documents sheets"
 
   - name: "Building Outlined"
     id: "building-o"
@@ -1825,7 +1825,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "tower edifice company business structure"
 
   - name: "hospital Outlined"
     id: "hospital-o"
@@ -3242,7 +3242,7 @@ icons:
     created: 4.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "tower edifice company business structure"
 
   - name: "Child"
     id: "child"
