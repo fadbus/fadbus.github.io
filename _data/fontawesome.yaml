@@ -2290,7 +2290,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "space ship fly sky moon"
 
   - name: "MaxCDN"
     id: "maxcdn"
@@ -2298,7 +2298,7 @@ icons:
     created: 3.1
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "content delivery s3"
 
   - name: "Chevron Circle Left"
     id: "chevron-circle-left"
@@ -2338,7 +2338,7 @@ icons:
     created: 3.1
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "web develop code program markup"
 
   - name: "CSS 3 Logo"
     id: "css3"
@@ -2346,7 +2346,7 @@ icons:
     created: 3.1
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "web develop design code program markup sass scss less"
 
   - name: "Anchor"
     id: "anchor"
@@ -2354,7 +2354,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "land sail ship stop weight mark"
 
   - name: "Unlock Alt"
     id: "unlock-alt"
@@ -2362,7 +2362,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "padlocks insecure security"
 
   - name: "Bullseye"
     id: "bullseye"
@@ -2370,7 +2370,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "hit perfect middle"
 
   - name: "Ellipsis Horizontal"
     id: "ellipsis-h"
@@ -2378,7 +2378,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "more dots"
 
   - name: "Ellipsis Vertical"
     id: "ellipsis-v"
@@ -2386,7 +2386,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "dots"
 
   - name: "RSS Square"
     id: "rss-square"
@@ -2394,7 +2394,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "syndicate atom"
 
   - name: "Play Circle"
     id: "play-circle"
@@ -2410,7 +2410,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "movies stubs purchases"
 
   - name: "Minus Square"
     id: "minus-square"
@@ -2436,7 +2436,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "arrows increase win"
 
   - name: "Level Down"
     id: "level-down"
@@ -2444,7 +2444,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "arrows decrease lose"
 
   - name: "Check Square"
     id: "check-square"
@@ -2469,7 +2469,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "arrows urls hyperlinks new tab"
 
   - name: "Share Square"
     id: "share-square"
@@ -2485,7 +2485,7 @@ icons:
     created: 3.2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "sass scss navigation directions lost found"
 
   - name: "Caret Square Outlined Down"
     id: "caret-square-o-down"
@@ -2496,7 +2496,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Directional Icons"
-    meta: ""
+    meta: "arrows navigation below collapse"
 
   - name: "Caret Square Outlined Up"
     id: "caret-square-o-up"
@@ -2507,7 +2507,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Directional Icons"
-    meta: ""
+    meta: "arrows navigation up expand"
 
   - name: "Caret Square Outlined Right"
     id: "caret-square-o-right"
@@ -2518,7 +2518,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Directional Icons"
-    meta: ""
+    meta: "arrows navigation next go play"
 
   - name: "Euro (EUR)"
     id: "eur"
@@ -2528,7 +2528,7 @@ icons:
       - "euro"
     categories:
       - "Currency Icons"
-    meta: ""
+    meta: "european money purchases"
 
   - name: "GBP"
     id: "gbp"
@@ -2536,7 +2536,7 @@ icons:
     created: 3.2
     categories:
       - "Currency Icons"
-    meta: ""
+    meta: "european money purchases pound"
 
   - name: "US Dollar"
     id: "usd"
@@ -2546,7 +2546,7 @@ icons:
       - "dollar"
     categories:
       - "Currency Icons"
-    meta: ""
+    meta: "western american united states money purchases"
 
   - name: "Indian Rupee (INR)"
     id: "inr"
@@ -2556,7 +2556,7 @@ icons:
       - "rupee"
     categories:
       - "Currency Icons"
-    meta: ""
+    meta: "asian money purchases"
 
   - name: "Japanese Yen (JPY)"
     id: "jpy"
@@ -2568,7 +2568,7 @@ icons:
       - "yen"
     categories:
       - "Currency Icons"
-    meta: ""
+    meta: "asian money purchases"
 
   - name: "Russian Ruble (RUB)"
     id: "rub"
@@ -2579,7 +2579,7 @@ icons:
       - "rouble"
     categories:
       - "Currency Icons"
-    meta: ""
+    meta: "asian money purchases"
 
   - name: "Korean Won (KRW)"
     id: "krw"
@@ -2589,7 +2589,7 @@ icons:
       - "won"
     categories:
       - "Currency Icons"
-    meta: ""
+    meta: "asian money purchases"
 
   - name: "Bitcoin (BTC)"
     id: "btc"
@@ -2600,7 +2600,7 @@ icons:
     categories:
       - "Currency Icons"
       - "Brand Icons"
-    meta: ""
+    meta: "internet virtual money purchases"
 
   - name: "File"
     id: "file"
