@@ -195,7 +195,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "automobile street long path highway freeway car truck bicycle commute drive run"
+    meta: "automobile street long path highway freeway cars vehicles truck bicycle commute drive run"
 
   - name: "Download"
     id: "download"
@@ -1519,7 +1519,7 @@ icons:
     created: 2
     categories:
       - "Web Application Icons"
-    meta: "street long path highway freeway car truck bicycle commute drive run automobile haul"
+    meta: "street long path highway freeway cars vehicles trucks bicycle commute drive run automobile haul"
 
   - name: "Pinterest"
     id: "pinterest"
@@ -1676,7 +1676,7 @@ icons:
       - "dashboard"
     categories:
       - "Web Application Icons"
-    meta: "car speed redline fast"
+    meta: "cars vehicles speed redline fast"
 
   - name: "comment-o"
     id: "comment-o"
@@ -1833,7 +1833,7 @@ icons:
     created: 3
     categories:
       - "Medical Icons"
-    meta: ""
+    meta: "tower edifice help medical health dental dentist pharmacist ambulance doctor nurse business structure"
 
   - name: "ambulance"
     id: "ambulance"
@@ -1841,7 +1841,7 @@ icons:
     created: 3
     categories:
       - "Medical Icons"
-    meta: ""
+    meta: "cars vehicles doctors er emt medical emergency help"
 
   - name: "medkit"
     id: "medkit"
@@ -1849,7 +1849,7 @@ icons:
     created: 3
     categories:
       - "Medical Icons"
-    meta: ""
+    meta: "health medical heals"
 
   - name: "fighter-jet"
     id: "fighter-jet"
@@ -1857,7 +1857,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "plane air force fly flight fast"
 
   - name: "beer"
     id: "beer"
@@ -1865,7 +1865,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "drinks alcohol"
 
   - name: "H Square"
     id: "h-square"
@@ -1873,7 +1873,7 @@ icons:
     created: 3
     categories:
       - "Medical Icons"
-    meta: ""
+    meta: "health medical heals"
 
   - name: "Plus Square"
     id: "plus-square"
@@ -1891,7 +1891,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "navigation forwards"
 
   - name: "Angle Double Right"
     id: "angle-double-right"
@@ -1899,7 +1899,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "navigation backwards"
 
   - name: "Angle Double Up"
     id: "angle-double-up"
@@ -1907,7 +1907,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "navigation collapse"
 
   - name: "Angle Double Down"
     id: "angle-double-down"
@@ -1915,7 +1915,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "navigation expand"
 
   - name: "angle-left"
     id: "angle-left"
@@ -1923,7 +1923,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "navigation less previous before"
 
   - name: "angle-right"
     id: "angle-right"
@@ -1931,7 +1931,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "navigation more next after"
 
   - name: "angle-up"
     id: "angle-up"
@@ -1939,7 +1939,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "navigation above caret"
 
   - name: "angle-down"
     id: "angle-down"
@@ -1947,7 +1947,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "navigation below"
 
   - name: "Desktop"
     id: "desktop"
@@ -1955,7 +1955,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "computer pc mac imac screens monitors displays shows outputs responsive"
 
   - name: "Laptop"
     id: "laptop"
@@ -1963,7 +1963,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "computer pc mac macbook mobile responsive"
 
   - name: "tablet"
     id: "tablet"
@@ -1971,7 +1971,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "mobile computer responsive"
 
   - name: "Mobile Phone"
     id: "mobile"
@@ -1981,7 +1981,7 @@ icons:
       - "mobile-phone"
     categories:
       - "Web Application Icons"
-    meta: "talk communicate call cell chat connect"
+    meta: "talk communicate call cell chat connect mobile computer android iphone responsive"
 
   - name: "Circle Outlined"
     id: "circle-o"
@@ -1990,7 +1990,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Form Control Icons"
-    meta: ""
+    meta: "holes donuts nav navigation point guide step bullet"
 
   - name: "quote-left"
     id: "quote-left"
@@ -1998,7 +1998,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "open text quotes"
 
   - name: "quote-right"
     id: "quote-right"
@@ -2006,7 +2006,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "close text quotes"
 
   - name: "Spinner"
     id: "spinner"
@@ -2015,7 +2015,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Spinner Icons"
-    meta: ""
+    meta: "ajax waiting"
 
   - name: "Circle"
     id: "circle"
@@ -2024,7 +2024,7 @@ icons:
     categories:
       - "Web Application Icons"
       - "Form Control Icons"
-    meta: ""
+    meta: "holes dots"
 
   - name: "Reply"
     id: "reply"
@@ -2034,7 +2034,7 @@ icons:
       - "mail-reply"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "arrows emails send"
 
   - name: "GitHub Alt"
     id: "github-alt"
@@ -2042,7 +2042,7 @@ icons:
     created: 3
     categories:
       - "Brand Icons"
-    meta: "social programming code octo cat"
+    meta: "social programming code octocat vcs dvcs version control"
 
   - name: "Folder Outlined"
     id: "folder-o"
@@ -2050,7 +2050,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "binders files pockets holders containers cases papers stores documents docs"
 
   - name: "Folder Open Outlined"
     id: "folder-open-o"
@@ -2058,7 +2058,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "binders files pockets holders containers cases papers stores documents docs"
 
   - name: "Smile Outlined"
     id: "smile-o"
@@ -2066,7 +2066,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "happy glad good yes affirmative"
 
   - name: "Frown Outlined"
     id: "frown-o"
@@ -2074,7 +2074,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "sad poor no negative"
 
   - name: "Meh Outlined"
     id: "meh-o"
@@ -2082,7 +2082,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "whatever wev indifferent"
 
   - name: "Gamepad"
     id: "gamepad"
@@ -2090,7 +2090,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "video games play controller xbox playstation ps3 ps4 wii wiiu"
 
   - name: "Keyboard Outlined"
     id: "keyboard-o"
@@ -2098,7 +2098,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "type text input computer"
 
   - name: "Flag Outlined"
     id: "flag-o"
@@ -2122,7 +2122,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "console command cmd prompt program old"
 
   - name: "Code"
     id: "code"
@@ -2130,7 +2130,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "dev develop build nerd geek program apps"
 
   - name: "reply-all"
     id: "reply-all"
@@ -2140,7 +2140,7 @@ icons:
       - "mail-reply-all"
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "arrows emails sends"
 
   - name: "Star Half Outlined"
     id: "star-half-o"
@@ -2151,7 +2151,7 @@ icons:
       - "star-half-full"
     categories:
       - "Web Application Icons"
-    meta: "cosmic pent five point polygon pentagon geometry rating like feedback"
+    meta: "cosmic pent five point polygon pentagon geometry rating like feedback meh"
 
   - name: "location-arrow"
     id: "location-arrow"
@@ -2159,7 +2159,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "map marker pointer here"
 
   - name: "crop"
     id: "crop"
@@ -2167,7 +2167,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "trims cuts images selects"
 
   - name: "code-fork"
     id: "code-fork"
@@ -2175,7 +2175,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "git mercurial branch develop program"
 
   - name: "Chain Broken"
     id: "chain-broken"
@@ -2185,7 +2185,7 @@ icons:
       - "unlink"
     categories:
       - "Text Editor Icons"
-    meta: ""
+    meta: "links removes breaks hyperlinks"
 
   - name: "Question"
     id: "question"
