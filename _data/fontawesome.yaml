@@ -2609,7 +2609,7 @@ icons:
     categories:
       - "Text Editor Icons"
       - "File Type Icons"
-    meta: ""
+    meta: "new pages docs documents sheets"
 
   - name: "File Text"
     id: "file-text"
@@ -2618,7 +2618,7 @@ icons:
     categories:
       - "Text Editor Icons"
       - "File Type Icons"
-    meta: ""
+    meta: "new pages docs documents sheets"
 
   - name: "Sort Alpha Ascending"
     id: "sort-alpha-asc"
@@ -2626,7 +2626,7 @@ icons:
     created: 3.2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "alphabetical ordered"
 
   - name: "Sort Alpha Descending"
     id: "sort-alpha-desc"
@@ -2634,7 +2634,7 @@ icons:
     created: 3.2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "alphabetical ordered"
 
   - name: "Sort Amount Ascending"
     id: "sort-amount-asc"
@@ -2642,7 +2642,7 @@ icons:
     created: 3.2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "ordered stacked bars"
 
   - name: "Sort Amount Descending"
     id: "sort-amount-desc"
@@ -2650,7 +2650,7 @@ icons:
     created: 3.2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "ordered stacked bars"
 
   - name: "Sort Numeric Ascending"
     id: "sort-numeric-asc"
@@ -2658,7 +2658,7 @@ icons:
     created: 3.2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "ordered stacked"
 
   - name: "Sort Numeric Descending"
     id: "sort-numeric-desc"
@@ -2666,7 +2666,7 @@ icons:
     created: 3.2
     categories:
       - "Web Application Icons"
-    meta: ""
+    meta: "ordered stacked"
 
   - name: "thumbs-up"
     id: "thumbs-up"
@@ -2690,7 +2690,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "videos social google"
 
   - name: "YouTube"
     id: "youtube"
@@ -2698,7 +2698,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "videos social google"
 
   - name: "Xing"
     id: "xing"
@@ -2706,7 +2706,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social business connect"
 
   - name: "Xing Square"
     id: "xing-square"
@@ -2714,7 +2714,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social business connect"
 
   - name: "YouTube Play"
     id: "youtube-play"
@@ -2723,7 +2723,7 @@ icons:
     categories:
       - "Brand Icons"
       - "Video Player Icons"
-    meta: ""
+    meta: "videos social google"
 
   - name: "Dropbox"
     id: "dropbox"
@@ -2731,7 +2731,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "cloud storage data"
 
   - name: "Stack Overflow"
     id: "stack-overflow"
@@ -2739,7 +2739,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social technology develop"
 
   - name: "Instagram"
     id: "instagram"
@@ -2747,7 +2747,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social images photo"
 
   - name: "Flickr"
     id: "flickr"
@@ -2755,7 +2755,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social images photo"
 
   - name: "App.net"
     id: "adn"
@@ -2763,7 +2763,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social"
 
   - name: "Bitbucket"
     id: "bitbucket"
@@ -2771,7 +2771,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social programming code "
 
   - name: "Bitbucket Square"
     id: "bitbucket-square"
@@ -2779,7 +2779,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social programming code "
 
   - name: "Tumblr"
     id: "tumblr"
@@ -2787,7 +2787,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social blogs"
 
   - name: "Tumblr Square"
     id: "tumblr-square"
@@ -2795,7 +2795,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social blogs"
 
   - name: "Long Arrow Down"
     id: "long-arrow-down"
@@ -2803,7 +2803,7 @@ icons:
     created: 3.2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "arrows navigation"
 
   - name: "Long Arrow Up"
     id: "long-arrow-up"
@@ -2811,7 +2811,7 @@ icons:
     created: 3.2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "arrows navigation"
 
   - name: "Long Arrow Left"
     id: "long-arrow-left"
@@ -2819,7 +2819,7 @@ icons:
     created: 3.2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "arrows navigation"
 
   - name: "Long Arrow Right"
     id: "long-arrow-right"
@@ -2827,7 +2827,7 @@ icons:
     created: 3.2
     categories:
       - "Directional Icons"
-    meta: ""
+    meta: "arrows navigation"
 
   - name: "Apple"
     id: "apple"
@@ -2835,7 +2835,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "operating system os iphone ipad mac steve jobs"
 
   - name: "Windows"
     id: "windows"
@@ -2843,7 +2843,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "operating system os xp bill gates"
 
   - name: "Android"
     id: "android"
@@ -2851,7 +2851,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "operating system os phone"
 
   - name: "Linux"
     id: "linux"
@@ -2859,7 +2859,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "operating system os linux torvalds"
 
   - name: "Dribbble"
     id: "dribbble"
@@ -2867,7 +2867,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social design"
 
   - name: "Skype"
     id: "skype"
@@ -2875,7 +2875,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social voip video chat"
 
   - name: "Foursquare"
     id: "foursquare"
@@ -2883,7 +2883,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social places"
 
   - name: "Trello"
     id: "trello"
@@ -2891,7 +2891,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: ""
+    meta: "social organize organization"
 
   - name: "Female"
     id: "female"
