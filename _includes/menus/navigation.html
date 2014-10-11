@@ -11,9 +11,10 @@
         <span class="icon-bar"></span>
       </button>
 
-      <!-- hack to handle a long site title -->
-      <a class="navbar-brand hidden-xs hidden-sm" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      <a class="navbar-brand hidden-md hidden-lg" href="{{ site.baseurl }}/">{{ site.shortTitle }}</a>
+      <input type="search" class="search form-control input-medium" id="font-filter-box" placeholder="Try 'wine' or 'email' or 'reboot' ... ">
+      
+
+
     </div><!-- ./navbar-header -->
 
     <div class="collapse navbar-collapse">
@@ -21,6 +22,16 @@
         <li{% if page.navbar == 'fonts' %} class="active"{% endif %}><a href="{{ site.baseurl }}/">Fonts</a></li>
         <li{% if page.navbar == 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
         <li><a href="{{ site.baseurl }}/404.html">404 Testing</a></li>
+        <li class="navbar-logo">
+            <!-- hack to handle a long site title -->
+          <a class="hidden-xs hidden-sm" href="{{ site.baseurl }}/">FADBUS</a>
+          <a class="hidden-md hidden-lg" href="{{ site.baseurl }}/">{{ site.shortTitle }}</a>
+        </li>
+        <li class="navbar-circle">
+            <span class="icon-circle"><i class="fa fa-bus"></i></span>
+        </li>
+        
+        
       </ul><!-- /#nav-links -->
     </div><!--/.navbar-collapse -->
 
