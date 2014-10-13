@@ -63,17 +63,11 @@ h1 small { padding-left: 15px; }
 
 .navbar-default { background-color: #0033cc; }
 
-.navbar-header {}
-
 #nav-links {padding-top:1em;}
 
-.navbar-default .navbar-nav li a {
-    color:#fff;
-}
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    background: none;
-    color:#fff;
-}
+.navbar-default .navbar-nav li a {color:#fff;}
+.navbar-default .navbar-nav li a:hover {color:#33ff99;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {background: none;color:#fff;}
 .navbar .navbar-logo a {
     font-family: 'Permanent Marker', sans-serif;
     color:#33ff99;
