@@ -43,8 +43,6 @@ a:visited { color: #00a; }
 
 .row { margin-left: 0px; margin-right: 0px; padding: 0 0px 0 0px; }
 
-/*.navbar-default .navbar-brand { color: #bf9000; font-size: 30px; font-weight: 100; text-shadow: 1px 1px 1px #000; }
-*/
 #footer { margin-bottom: 20px; }
 
 .page-header { border-bottom: none; }
@@ -72,11 +70,11 @@ h1 small { padding-left: 15px; }
     background: none;
     color:#fff;
 }
-
-
 .navbar .navbar-logo a {
 	font-family: 'Permanent Marker', sans-serif;
 	color:#33ff99;
+    font-size: 2em;
+
 }
 .navbar .navbar-logo a:hover {
     color:#33ff99;
@@ -109,110 +107,13 @@ h1 small { padding-left: 15px; }
 }
 
 
-
-
-
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* custom styles
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.home-section {
-	background-color: #0033cc;
-	background-image: url(/assets/img/fadbus_bg.png);
-	color:#fff;
-	padding: 4em 0 6em 0;
-}
-.home-section .col-md-12 {
-	text-align: center;
-}
 
-.circle-text {
-    width:12%;
-    font-size: 5em; /*update this for mobile/responsive*/
-    margin: 0 auto;
-}
-.circle-text:after {
-    content: "";
-    display: block;
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;
-    background: #33ff99; 
-    -moz-border-radius: 50%; 
-    -webkit-border-radius: 50%; 
-    border-radius: 50%;
-}
-.circle-text div {
-    float:left;
-    width:100%;
-    padding-top:50%;
-    line-height:1em;
-    margin-top:-0.5em;
-    text-align:center;
-    color:#0033cc;
-}
+.about-section {float:left;position: fixed;padding:0;}
 
-.logo {
-	padding:0em 0 2em 0em;
-}
-.logo h1 {
-	color:#33ff99;
-	font-family: 'Permanent Marker', sans-serif;
-	font-size:5em;
-	line-height: 1em;
-	margin: 0;
-
-}
-.logo p {
-	font-size:1.3em;
-	font-weight: 100;
-}
-
-.searchbox-section {
-	background-color: none;
-}
-
-.searchbox-section h2 {
-	font-size: 2em;
-	font-weight: 300;
-	text-align: right;
-	padding-top: 14px;
-}
-
-.card tbody tr td, .card thead tr th {
-  border: none;
-}
-.card {
-	background-color: #fff;
-	color: #666;
-	margin-bottom:4em;
-	border:1px solid #ccc;
-}
-.card .row {
-	height:2em;
-}
-.card .icon {
-	font-size: 7em;	
-	text-align: center;
-
-}
-.card .icon-name {
-	font-size:2em;
-	text-align: center;
-}
-.card .icon-code {
-	background-color: #efefef;
-	text-align: center;
-}
-.card .meta {
-	text-align: right;
-	padding-right: 1em;
-}
-.card .icon-link {
-	text-align: center;
-
-}
 
 .mc-signup { margin: 1em 0; font:1em 'roboto',Helvetica,Arial,sans-serif; }
 
@@ -222,7 +123,7 @@ h1 small { padding-left: 15px; }
 
 .horizontal-padding-small { padding: 8px 0 8px 0; }
 
-.horizontal-padding-medium { padding: 24px 0 24px 0; }
+.horizontal-padding-medium { padding: 100px 0 24px 0; }
 
 .horizontal-padding-large { padding: 48px 0 96px 0; }
 
@@ -233,8 +134,118 @@ h1 small { padding-left: 15px; }
 .font-list-header { font-weight: 800; padding: 8px 0 8px 0; margin-bottom: 16px; border-bottom: 3px solid #eeeeee; }
 
 .font-list-rows { padding: 0; }
+.horizontal-padding-medium .col-md-10 {padding:0;mar}
+.horizontal-padding-medium .col-md-2 {padding:0;}
 
 input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow: none; box-shadow: none; border: 3px solid #eeeeee; font-size: 18px; padding: 12px 20px 12px 10px; font-weight: 300; }
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    /* landing page styles
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+        .home-section {
+        	background-color: #0033cc;
+        	background-image: url(/assets/img/fadbus_bg.png);
+        	color:#fff;
+        	padding: 4em 0 6em 0;
+        }
+        .home-section .col-md-12 {
+        	text-align: center;
+        }
+
+        .circle-text {
+            width:12%;
+            font-size: 5em; /*update this for mobile/responsive*/
+            margin: 0 auto;
+        }
+        .circle-text:after {
+            content: "";
+            display: block;
+            width: 100%;
+            height:0;
+            padding-bottom: 100%;
+            background: #33ff99; 
+            -moz-border-radius: 50%; 
+            -webkit-border-radius: 50%; 
+            border-radius: 50%;
+        }
+        .circle-text div {
+            float:left;
+            width:100%;
+            padding-top:50%;
+            line-height:1em;
+            margin-top:-0.5em;
+            text-align:center;
+            color:#0033cc;
+        }
+
+        .logo {
+        	padding:0em 0 2em 0em;
+        }
+        .logo h1 {
+        	color:#33ff99;
+        	font-family: 'Permanent Marker', sans-serif;
+        	font-size:5em;
+        	line-height: 1em;
+        	margin: 0;
+
+        }
+        .logo p {
+        	font-size:1.3em;
+        	font-weight: 100;
+        }
+
+        .searchbox-section {
+        	background-color: none;
+        }
+
+        .searchbox-section h2 {
+        	font-size: 2em;
+        	font-weight: 300;
+        	text-align: right;
+        	padding-top: 14px;
+        }
+
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+    /* card styles
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+        .card tbody tr td, .card thead tr th {
+          border: none;
+        }
+        .card {
+        	background-color: #fff;
+        	color: #666;
+        	margin-bottom:4em;
+        	border:1px solid #ccc;
+        }
+        .card .row {
+        	/*height:2em;
+            */padding:1em;
+        }
+        .card .icon {
+        	font-size: 7em;	
+        	text-align: center;
+            padding: 0;
+        }
+        .card .icon-name {
+        	font-size:2em;
+        	text-align: center;
+        }
+        .card .icon-code {
+        	background-color: #efefef;
+        	text-align: center;
+        }
+        .card .meta {
+        	text-align: right;
+        	padding-right: 1em;
+        }
+        .card .icon-link {
+        	text-align: center;
+
+        }
+
+
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* responsive

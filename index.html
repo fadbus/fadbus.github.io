@@ -6,32 +6,12 @@ header: "Font Filter"
 ---
 
 <div class="container horizontal-padding-medium">
+  <div class="row">
+    <div class="col-md-10 card-column">
 
-  <!-- <div class="row font-list-header">
-
-    <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
-      <span class="sort" data-sort="icon">Icon</span>
-    </div>
-    <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
-      <span class="sort" data-sort="name">Name</span>
-    </div>
-    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-      <span class="sort" data-sort="class">Class</span>
-    </div>
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
-      <span class="sort" data-sort="unicode">Unicode</span>
-    </div>
-    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
-      <span class="sort" data-sort="version">Version</span>
-    </div>
-    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 hidden-xs hidden-sm">
-      <span class="sort" data-sort="categories">Categories</span>
-    </div>
-
-  </div> --><!-- /.font-list-header -->
-
-  {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
-  {% for font in fonts %}
+    {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
+    {% for font in fonts %}
+    
   <div class="font-list-rows list">
     <div class="col-md-6">
       <div class="card">
@@ -56,10 +36,6 @@ header: "Font Filter"
           <div class="col-md-6 meta">version:</div>
           <div class="version">{{ font.created }}</div>
         </div>
-        <!-- <tr class="icon-family">
-          <td class="family">font-family:</td>
-          <td class="family-value"></td>
-        </tr> -->
         <div class="row">
           <div class="col-md-6 meta">categories:</div>
           <div class="categories">{{ font.categories }}</div>
@@ -68,27 +44,41 @@ header: "Font Filter"
           <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome</a>
         </div>
       </div>
-      
-      <!-- <div class="col-xs-4 col-sm-4 col-md-3 col-lg-3">
-        <span class="name">{{ font.name }}</span>
-        <span class="hidden">{{ font.meta }}</span>
-      </div>
-      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-        <span class="class">{{ site.data.fontawesome.prefix }}{{ font.id }}</span>
-      </div>
-      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
-        <span class="unicode">{{ font.unicode }}&nbsp;</span>
-      </div>
-      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 hidden-xs hidden-sm">
-        <span class="version">{{ font.created }}&nbsp;</span>
-      </div>
-      <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 hidden-xs hidden-sm">
-        <span class="categories">{{ font.categories }}&nbsp;</span>
-      </div> -->
-
     </div>
   </div><!-- /.font-list-rows -->
   {% endfor %}
+
+    
+    </div>
+
+    <div class="col-md-2 fixed">
+      <section class="about-section" id="about">
+    
+      <p>Get updates when a font icon library is added to Fadbus.</p>
+        <!-- Begin MailChimp Signup Form -->
+          
+            <div class="form-inline mc-signup">
+              <form action="http://twitter.us3.list-manage2.com/subscribe/post" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <input type="hidden" name="u" value="cfd0fac6df19ebe88e3941afd">
+                <input type="hidden" name="id" value="32e1489c58">
+                <input type="hidden" name="orig-lang" value="1">
+                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" class="form-control input-small" value="" placeholder="Enter email" required>
+                
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_cfd0fac6df19ebe88e3941afd_32e1489c58" tabindex="-1" value=""></div>
+                  <input type="submit" value="Go" name="subscribe" id="" class="btn">
+
+              </form>
+            </div>
+        <!--End mc_embed_signup-->
+     
+     <p>Filterable database of <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">FontAwesome</a> icons. Created and maintained by <a href="https://github.com/dereknutile" target="_blank">@dereknutile</a> and <a href="https://github.com/deandowd" target="_blank">@deandowd</a>. New metadata and improvements can be commited via the <a href="https://github.com/fadbus/fadbus.github.io" target="_blank">repository</a>.</p>
+
+    </section>
+    </div>
+  </div>
+
+    
 
 </div><!-- /.container -->
 </div><!-- /.background-color-eee -->
