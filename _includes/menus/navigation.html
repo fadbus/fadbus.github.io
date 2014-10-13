@@ -10,14 +10,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
-      <input type="search" class="search form-control input-medium" id="font-filter-box" placeholder="Try 'wine' or 'email' or 'reboot' ... ">
-      
-
-
     </div><!-- ./navbar-header -->
-
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" id="searchbar">
       <ul class="nav navbar-nav navbar-right" id="nav-links">
         <li{% if page.navbar == 'fonts' %} class="active"{% endif %}><a href="{{ site.baseurl }}/">Fonts</a></li>
         <li{% if page.navbar == 'about' %} class="active"{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
@@ -29,10 +23,18 @@
         </li>
         <li class="navbar-circle">
             <span class="icon-circle"><i class="fa fa-bus"></i></span>
-        </li>
-        
-        
+        </li>        
       </ul><!-- /#nav-links -->
+
+      <form class="navbar-form">
+        <div class="form-group" style="display:inline;">
+          <div class="input-group">
+            <input type="search" class="search form-control input-medium" id="font-filter-box" placeholder="Try 'wine' or 'email' or 'reboot' ... ">
+            <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+          </div>
+        </div>
+      </form>
+
     </div><!--/.navbar-collapse -->
 
   </div><!-- .container -->

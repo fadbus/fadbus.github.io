@@ -4,52 +4,49 @@ title: "Font Filter"
 navbar: "fonts"
 header: "Font Filter"
 ---
-
-<div class="container horizontal-padding-medium">
-  <div class="row">
-    <div class="col-md-10 card-column">
+  
+    <div class="col-md-10">
 
     {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
     {% for font in fonts %}
-    
-  <div class="font-list-rows list">
-    <div class="col-md-6">
-      <div class="card">
-        <div class="row icon">
-          <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
-        </div>
-        <div class="row icon-name">
-          {{ font.name }}
-        </div>
-        <div class="row icon-code">
-          snippet code
-        </div>
-        <div class="row">
-          <div class="col-md-6 meta">class:</div>
-          <div class="col-md-6 class">{{ site.data.fontawesome.prefix }}{{ font.id }}</div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 meta">unicode:</div>
-          <div class="col-md-6 unicode">{{ font.unicode }}</div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 meta">version:</div>
-          <div class="version">{{ font.created }}</div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 meta">categories:</div>
-          <div class="categories">{{ font.categories }}</div>
-        </div>
-        <div class="row icon-link">
-          <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome</a>
+
+    <div class="font-list-rows list">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="row icon">
+            <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
+          </div>
+          <div class="row icon-name">
+            {{ font.name }}
+          </div>
+          <div class="row icon-code">
+            snippet code
+          </div>
+          <div class="row">
+            <div class="col-md-6 meta">class:</div>
+            <div class="col-md-6 class">{{ site.data.fontawesome.prefix }}{{ font.id }}</div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 meta">unicode:</div>
+            <div class="col-md-6 unicode">{{ font.unicode }}</div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 meta">version:</div>
+            <div class="version">{{ font.created }}</div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 meta">categories:</div>
+            <div class="categories">{{ font.categories }}</div>
+          </div>
+          <div class="row icon-link">
+            <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome</a>
+          </div>
         </div>
       </div>
-    </div>
-  </div><!-- /.font-list-rows -->
-  {% endfor %}
+    </div><!-- /.font-list-rows -->
+    {% endfor %}
 
-    
-    </div>
+    </div><!-- /.col-md-10 -->
 
     <div class="col-md-2 fixed">
       <section class="about-section" id="about">
@@ -76,10 +73,6 @@ header: "Font Filter"
 
     </section>
     </div>
-  </div>
 
     
 
-</div><!-- /.container -->
-</div><!-- /.background-color-eee -->
-</div><!-- /.searchbox-section -->

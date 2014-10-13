@@ -59,9 +59,13 @@ h1 small { padding-left: 15px; }
 /* navigation styles
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.navbar { font-family: "Roboto", Helvetica, Arial, sans-serif; padding: 1em 0;}
+.navbar { font-family: "Roboto", Helvetica, Arial, sans-serif;/* padding: 1em 0;*/}
 
 .navbar-default { background-color: #0033cc; }
+
+.navbar-header {}
+
+#nav-links {padding-top:1em;}
 
 .navbar-default .navbar-nav li a {
     color:#fff;
@@ -112,10 +116,13 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
-.about-section {float:left;position: fixed;padding:0;}
+.about-section {float:left;position: fixed;padding:0;width:inherit;}
+.main-content-section {padding-top:100px;}
 
+.row .col-md-10 {padding:0;}
+/*.evenrow .col-md-6 {padding-right: 0;}*/
 
-.mc-signup { margin: 1em 0; font:1em 'roboto',Helvetica,Arial,sans-serif; }
+.mc-signup { margin: 1em 0; font:1em 'roboto',Helvetica,Arial,sans-serif; width: in}
 
 #font-filter { margin-bottom: 24px; }
 
@@ -123,7 +130,7 @@ h1 small { padding-left: 15px; }
 
 .horizontal-padding-small { padding: 8px 0 8px 0; }
 
-.horizontal-padding-medium { padding: 100px 0 24px 0; }
+.horizontal-padding-medium { padding: 100px 0 24px 0; width:1024px;}
 
 .horizontal-padding-large { padding: 48px 0 96px 0; }
 
@@ -221,7 +228,7 @@ input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow:
         }
         .card .row {
         	/*height:2em;
-            */padding:1em;
+            */padding:1em 0;
         }
         .card .icon {
         	font-size: 7em;	
@@ -238,7 +245,6 @@ input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow:
         }
         .card .meta {
         	text-align: right;
-        	padding-right: 1em;
         }
         .card .icon-link {
         	text-align: center;
