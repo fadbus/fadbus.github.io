@@ -122,6 +122,9 @@ h1 small { padding-left: 15px; }
 
 
 .fixed-div {float:left;position: fixed;padding:0;width:inherit;}
+@media (max-width: 768px) {
+    .fixed-div { position: relative;}
+}
 /*.main-content-section {padding-top:100px;}*/
 
 .row .col-md-10 {padding:0;}
@@ -151,7 +154,22 @@ h1 small { padding-left: 15px; }
 .horizontal-padding-medium .col-md-10 {padding:0;mar}
 .horizontal-padding-medium .col-md-2 {padding:0;}
 
-input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow: none; box-shadow: none; border: 3px solid #eeeeee; font-size: 18px; padding: 12px 20px 12px 10px; font-weight: 300; }
+/*bumps down the font filter box*/
+#font-filter-wrap { margin-top: 8px; }
+@media (max-width: 768px) {
+    /*pushes the font filter off the left side a bit*/
+    #font-filter-wrap { margin-left: 4px; }
+}
+
+input[type=search], input[type=search]:focus { 
+    height: 100%; 
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+    border: 3px solid #eeeeee; 
+    font-size: 18px; 
+    padding: 12px 20px 12px 10px; 
+    font-weight: 300;
+    }
 
     /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     /* landing page styles
