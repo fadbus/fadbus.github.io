@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 
     // find filter
-    $('input#font-filter-box').quicksearch('.list', {
+    $('input#font-filter-box').quicksearch('.card-column', {
         'delay': 500,
         'bind': 'keyup keydown',
         'onBefore': function () {
