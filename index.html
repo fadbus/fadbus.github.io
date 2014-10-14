@@ -2,17 +2,23 @@
 layout: default
 title: "Font Filter"
 navbar: "fonts"
-header: "Font Filter"
 ---
+
+<section id="landing-page" class="palette">    
+<div id="landing-page-banner">
+
+  <div class="container">
+  <div class="row">
   
-    <div class="col-md-10">
+    <div class="col-md-10" id="font-cards">
+    <div class="row" id="font-cards-row-wrap">
 
     {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
     {% for font in fonts %}
 
-    <div class="font-list-rows list">
-      <div class="col-md-6">
-        <div class="card">
+      <div class="col-md-6 card-column">
+      <div class="card">
+          
           <div class="row icon">
             <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
           </div>
@@ -20,7 +26,7 @@ header: "Font Filter"
             {{ font.name }}
           </div>
           <div class="row icon-code">
-            snippet code
+            <code>&lt;i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"&gt;&lt;/i&gt;</code>
           </div>
           <div class="row">
             <div class="col-md-6 meta">class:</div>
@@ -44,38 +50,25 @@ header: "Font Filter"
           <div class="row icon-link">
             <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome</a>
           </div>
-        </div>
-      </div>
-    </div><!-- /.font-list-rows -->
+
+        </div><!-- /.card -->
+        </div><!-- /.card-column -->
     {% endfor %}
 
-    </div><!-- /.col-md-10 -->
+    </div><!-- /#font-cards-row-wrap -->
+    </div><!-- /#font-cards -->
 
-    <div class="col-md-2 fixed">
-      <section class="about-section" id="about">
-    
+    <div class="col-md-2 fixed">    
       <p>Get updates when a font icon library is added to Fadbus.</p>
-        <!-- Begin MailChimp Signup Form -->
-          
-            <div class="form-inline mc-signup">
-              <form action="http://twitter.us3.list-manage2.com/subscribe/post" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <input type="hidden" name="u" value="cfd0fac6df19ebe88e3941afd">
-                <input type="hidden" name="id" value="32e1489c58">
-                <input type="hidden" name="orig-lang" value="1">
-                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" class="form-control input-small" value="" placeholder="Enter email" required>
-                
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_cfd0fac6df19ebe88e3941afd_32e1489c58" tabindex="-1" value=""></div>
-                  <input type="submit" value="Go" name="subscribe" id="" class="btn">
+        
+      {% include blocks/mailchimp.html %}
+      {% include blocks/credits.html %}
 
-              </form>
-            </div>
-        <!--End mc_embed_signup-->
-     
-     <p>Filterable database of <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">FontAwesome</a> icons. Created and maintained by <a href="https://github.com/dereknutile" target="_blank">@dereknutile</a> and <a href="https://github.com/deandowd" target="_blank">@deandowd</a>. New metadata and improvements can be commited via the <a href="https://github.com/fadbus/fadbus.github.io" target="_blank">repository</a>.</p>
+    </div><!-- /.fixed -->
 
-    </section>
-    </div>
-
-    
+  </div><!-- /.row -->
+  </div><!-- /.container -->
+  
+</div><!-- /#landing-page-banner -->
+</section><!-- /#landing-page -->
 
