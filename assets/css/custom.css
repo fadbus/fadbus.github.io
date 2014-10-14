@@ -121,7 +121,7 @@ h1 small { padding-left: 15px; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
-.about-section {float:left;position: fixed;padding:0;width:inherit;}
+.fixed-div {float:left;position: fixed;padding:0;width:inherit;}
 /*.main-content-section {padding-top:100px;}*/
 
 .row .col-md-10 {padding:0;}
