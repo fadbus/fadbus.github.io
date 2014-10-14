@@ -25,6 +25,9 @@ header: "Font Filter"
           <div class="row">
             <div class="col-md-6 meta">class:</div>
             <div class="col-md-6 class">{{ site.data.fontawesome.prefix }}{{ font.id }}</div>
+            <!-- hide the metadata row, but it must be included -->
+            <div class="col-md-6 meta hidden">metadata:</div>
+            <div class="col-md-6 class hidden">{{ font.meta }}</div>
           </div>
           <div class="row">
             <div class="col-md-6 meta">unicode:</div>
