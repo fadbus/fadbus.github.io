@@ -7,29 +7,8 @@
 
   {% include framing/header.html %}
   {% include menus/navigation.html %}
-  {% comment %}{% include blocks/forkme.html %}{% endcomment %}
-  {% comment %}{% include sections/landing.html %}{% endcomment %}
-  {% comment %}{% include sections/about.html %}{% endcomment %}
-  <div class="fonts">
-  
 
-{% comment %}
-<!-- Save for nav -->
-{% include sections/searchbox.html %}
-{% endcomment %}
-
- <section class="main-content-section">
-  <div class="palette">
-  <div class="container">
-  <div class="row">
-
-    {{ content }}
-
-  </div><!-- /.row -->
-  </div><!-- /.container -->
-  </div><!-- /.palette -->
-  </div><!-- /.main-content-section -->
-  </div><!-- /.list -->
+  {{ content }}
 
   {% include framing/footer.html %}
 
