@@ -1,0 +1,87 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* font imports
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*script*/
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+/*sans serif*/
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+/*serif*/
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+/*monospace*/
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* global variables */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*variables -- fonts*/
+/*variables -- sizes*/
+/*variables -- colors*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* resets
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+* { margin: 0; padding: 0; }
+
+html, body { height: 100%; }
+
+body { padding-top: 100px; font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: 600; font-family: "Arvo", Times, serif; }
+
+h1 { margin-bottom: 1em; }
+
+p { font-size: 18px; line-height: 24px; margin-bottom: 1em; }
+
+a { color: #00a; }
+
+a:hover { color: #00a; }
+
+a:visited { color: #00a; }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Bootstrap overrides
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container { width: 1024px; }
+
+.row { margin-left: 0px; margin-right: 0px; padding: 0 18px 0 18px; }
+
+.navbar-default .navbar-brand { color: #bf9000; font-size: 30px; font-weight: 100; text-shadow: 1px 1px 1px #000; }
+
+#footer { margin-bottom: 20px; }
+
+.page-header { border-bottom: none; }
+
+.navbar { font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; }
+
+.navbar-default { background-color: #fff; border-bottom: 1px solid #aaa; }
+
+.tooltip-inner { width: 400px; min-width: 400px; }
+
+h1 small { padding-left: 15px; }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* custom styles
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#font-filter { margin-bottom: 24px; }
+
+.footer-wrapper { border-top: 1px solid #aaa; margin-top: 24px; padding-top: 12px; }
+
+.horizontal-padding-small { padding: 8px 0 8px 0; }
+
+.horizontal-padding-medium { padding: 24px 0 24px 0; }
+
+.horizontal-padding-large { padding: 48px 0 96px 0; }
+
+.background-color-eee { background-color: #eeeeee; }
+
+.forkme { position: absolute; top: 0; right: 0; border: 0; width: 125px; height: 125px; z-index: 10000; }
+
+.font-list-header { font-weight: 800; padding: 8px 0 8px 0; margin-bottom: 16px; border-bottom: 3px solid #eeeeee; }
+
+.font-list-rows { padding: 8px 0 8px 0; border-bottom: 1px dashed #c8c8c8; }
+
+input[type=search], input[type=search]:focus { height: 100%; -webkit-box-shadow: none; box-shadow: none; border: 3px solid #eeeeee; font-size: 18px; padding: 12px 20px 12px 10px; font-weight: 400; }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* responsive
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@media (max-width: 768px) { .container { width: auto; margin-right: auto; margin-left: auto; }
+  .forkme { display: none; } }
