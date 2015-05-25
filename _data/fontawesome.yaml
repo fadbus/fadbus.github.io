@@ -149,7 +149,7 @@ icons:
     id: "cog"
     unicode: "f013"
     created: 1
-    aliases: 
+    aliases:
       - "gear"
     categories:
       - "Web Application Icons"
@@ -241,7 +241,7 @@ icons:
     id: "repeat"
     unicode: "f01e"
     created: 1
-    aliases: 
+    aliases:
       - "rotate-right"
     categories:
       - "Text Editor Icons"
@@ -460,7 +460,7 @@ icons:
     id: "outdent"
     unicode: "f03b"
     created: 1
-    aliases: 
+    aliases:
       - "dedent"
     categories:
       - "Text Editor Icons"
@@ -486,7 +486,7 @@ icons:
     id: "picture-o"
     unicode: "f03e"
     created: 1
-    aliases: 
+    aliases:
       - "photo"
       - "image"
     categories:
@@ -529,7 +529,7 @@ icons:
     id: "pencil-square-o"
     unicode: "f044"
     created: 1
-    aliases: 
+    aliases:
       - "edit"
     categories:
       - "Web Application Icons"
@@ -773,7 +773,7 @@ icons:
     id: "share"
     unicode: "f064"
     created: 1
-    aliases: 
+    aliases:
       - "mail-forward"
     categories:
       - "Web Application Icons"
@@ -871,7 +871,7 @@ icons:
     id: "exclamation-triangle"
     unicode: "f071"
     created: 1
-    aliases: 
+    aliases:
       - "warning"
     categories:
       - "Web Application Icons"
@@ -1027,7 +1027,7 @@ icons:
     id: "cogs"
     unicode: "f085"
     created: 1
-    aliases: 
+    aliases:
       - "gears"
     categories:
       - "Web Application Icons"
@@ -1375,7 +1375,7 @@ icons:
     id: "users"
     unicode: "f0c0"
     created: 2
-    aliases: 
+    aliases:
       - "group"
     categories:
       - "Web Application Icons"
@@ -1385,7 +1385,7 @@ icons:
     id: "link"
     unicode: "f0c1"
     created: 2
-    aliases: 
+    aliases:
       - "chain"
     categories:
       - "Text Editor Icons"
@@ -1411,7 +1411,7 @@ icons:
     id: "scissors"
     unicode: "f0c4"
     created: 2
-    aliases: 
+    aliases:
       - "cut"
     categories:
       - "Text Editor Icons"
@@ -1421,7 +1421,7 @@ icons:
     id: "files-o"
     unicode: "f0c5"
     created: 2
-    aliases: 
+    aliases:
       - "copy"
     categories:
       - "Text Editor Icons"
@@ -1439,7 +1439,7 @@ icons:
     id: "floppy-o"
     unicode: "f0c7"
     created: 2
-    aliases: 
+    aliases:
       - "save"
     categories:
       - "Text Editor Icons"
@@ -1458,7 +1458,7 @@ icons:
     id: "bars"
     unicode: "f0c9"
     created: 2
-    aliases: 
+    aliases:
       - "navicon"
       - "reorder"
     categories:
@@ -1606,7 +1606,7 @@ icons:
     id: "sort"
     unicode: "f0dc"
     created: 2
-    aliases: 
+    aliases:
       - "unsorted"
     categories:
       - "Web Application Icons"
@@ -1616,7 +1616,7 @@ icons:
     id: "sort-desc"
     unicode: "f0dd"
     created: 2
-    aliases: 
+    aliases:
       - "sort-down"
     categories:
       - "Web Application Icons"
@@ -1626,7 +1626,7 @@ icons:
     id: "sort-asc"
     unicode: "f0de"
     created: 2
-    aliases: 
+    aliases:
       - "sort-up"
     categories:
       - "Web Application Icons"
@@ -1652,7 +1652,7 @@ icons:
     id: "undo"
     unicode: "f0e2"
     created: 2
-    aliases: 
+    aliases:
       - "rotate-left"
     categories:
       - "Text Editor Icons"
@@ -1662,7 +1662,7 @@ icons:
     id: "gavel"
     unicode: "f0e3"
     created: 2
-    aliases: 
+    aliases:
       - "legal"
     categories:
       - "Web Application Icons"
@@ -1672,7 +1672,7 @@ icons:
     id: "tachometer"
     unicode: "f0e4"
     created: 2
-    aliases: 
+    aliases:
       - "dashboard"
     categories:
       - "Web Application Icons"
@@ -1698,7 +1698,7 @@ icons:
     id: "bolt"
     unicode: "f0e7"
     created: 2
-    aliases: 
+    aliases:
       - "flash"
     categories:
       - "Web Application Icons"
@@ -1724,7 +1724,7 @@ icons:
     id: "clipboard"
     unicode: "f0ea"
     created: 2
-    aliases: 
+    aliases:
       - "paste"
     categories:
       - "Text Editor Icons"
@@ -1977,7 +1977,7 @@ icons:
     id: "mobile"
     unicode: "f10b"
     created: 3
-    aliases: 
+    aliases:
       - "mobile-phone"
     categories:
       - "Web Application Icons"
@@ -2030,7 +2030,7 @@ icons:
     id: "reply"
     unicode: "f112"
     created: 3
-    aliases: 
+    aliases:
       - "mail-reply"
     categories:
       - "Web Application Icons"
@@ -2136,7 +2136,7 @@ icons:
     id: "reply-all"
     unicode: "f122"
     created: 3.1
-    aliases: 
+    aliases:
       - "mail-reply-all"
     categories:
       - "Web Application Icons"
@@ -2146,7 +2146,7 @@ icons:
     id: "star-half-o"
     unicode: "f123"
     created: 3.1
-    aliases: 
+    aliases:
       - "star-half-empty"
       - "star-half-full"
     categories:
@@ -2181,7 +2181,7 @@ icons:
     id: "chain-broken"
     unicode: "f127"
     created: 3.1
-    aliases: 
+    aliases:
       - "unlink"
     categories:
       - "Text Editor Icons"
@@ -2491,7 +2491,7 @@ icons:
     id: "caret-square-o-down"
     unicode: "f150"
     created: 3.2
-    aliases: 
+    aliases:
       - "toggle-down"
     categories:
       - "Web Application Icons"
@@ -2502,7 +2502,7 @@ icons:
     id: "caret-square-o-up"
     unicode: "f151"
     created: 3.2
-    aliases: 
+    aliases:
       - "toggle-up"
     categories:
       - "Web Application Icons"
@@ -2513,7 +2513,7 @@ icons:
     id: "caret-square-o-right"
     unicode: "f152"
     created: 3.2
-    aliases: 
+    aliases:
       - "toggle-right"
     categories:
       - "Web Application Icons"
@@ -2524,7 +2524,7 @@ icons:
     id: "eur"
     unicode: "f153"
     created: 3.2
-    aliases: 
+    aliases:
       - "euro"
     categories:
       - "Currency Icons"
@@ -2542,7 +2542,7 @@ icons:
     id: "usd"
     unicode: "f155"
     created: 3.2
-    aliases: 
+    aliases:
       - "dollar"
     categories:
       - "Currency Icons"
@@ -2552,7 +2552,7 @@ icons:
     id: "inr"
     unicode: "f156"
     created: 3.2
-    aliases: 
+    aliases:
       - "rupee"
     categories:
       - "Currency Icons"
@@ -2562,7 +2562,7 @@ icons:
     id: "jpy"
     unicode: "f157"
     created: 3.2
-    aliases: 
+    aliases:
       - "cny"
       - "rmb"
       - "yen"
@@ -2574,7 +2574,7 @@ icons:
     id: "rub"
     unicode: "f158"
     created: 4
-    aliases: 
+    aliases:
       - "ruble"
       - "rouble"
     categories:
@@ -2585,7 +2585,7 @@ icons:
     id: "krw"
     unicode: "f159"
     created: 3.2
-    aliases: 
+    aliases:
       - "won"
     categories:
       - "Currency Icons"
@@ -2595,7 +2595,7 @@ icons:
     id: "btc"
     unicode: "f15a"
     created: 3.2
-    aliases: 
+    aliases:
       - "bitcoin"
     categories:
       - "Currency Icons"
@@ -3009,7 +3009,7 @@ icons:
     id: "caret-square-o-left"
     unicode: "f191"
     created: 4
-    aliases: 
+    aliases:
       - "toggle-left"
     categories:
       - "Web Application Icons"
@@ -3046,7 +3046,7 @@ icons:
     id: "try"
     unicode: "f195"
     created: 4
-    aliases: 
+    aliases:
       - "turkish-lira"
     categories:
       - "Currency Icons"
@@ -3105,7 +3105,7 @@ icons:
     id: "university"
     unicode: "f19c"
     created: 4.1
-    aliases: 
+    aliases:
       - "institution"
       - "bank"
     categories:
@@ -3116,7 +3116,7 @@ icons:
     id: "graduation-cap"
     unicode: "f19d"
     created: 4.1
-    aliases: 
+    aliases:
       - "mortar-board"
     categories:
       - "Web Application Icons"
@@ -3190,7 +3190,7 @@ icons:
     id: "pied-piper"
     unicode: "f1a7"
     created: 4.1
-    aliases: 
+    aliases:
       - "pied-piper-square"
     categories:
       - "Brand Icons"
@@ -3328,7 +3328,7 @@ icons:
     id: "car"
     unicode: "f1b9"
     created: 4.1
-    aliases: 
+    aliases:
       - "automobile"
     categories:
       - "Web Application Icons"
@@ -3338,7 +3338,7 @@ icons:
     id: "taxi"
     unicode: "f1ba"
     created: 4.1
-    aliases: 
+    aliases:
       - "cab"
     categories:
       - "Web Application Icons"
@@ -3424,7 +3424,7 @@ icons:
     id: "file-image-o"
     unicode: "f1c5"
     created: 4.1
-    aliases: 
+    aliases:
       - "file-photo-o"
       - "file-picture-o"
     categories:
@@ -3436,7 +3436,7 @@ icons:
     id: "file-archive-o"
     unicode: "f1c6"
     created: 4.1
-    aliases: 
+    aliases:
       - "file-zip-o"
     categories:
       - "Web Application Icons"
@@ -3447,7 +3447,7 @@ icons:
     id: "file-audio-o"
     unicode: "f1c7"
     created: 4.1
-    aliases: 
+    aliases:
       - "file-sound-o"
     categories:
       - "Web Application Icons"
@@ -3458,7 +3458,7 @@ icons:
     id: "file-video-o"
     unicode: "f1c8"
     created: 4.1
-    aliases: 
+    aliases:
       - "file-movie-o"
     categories:
       - "Web Application Icons"
@@ -3502,7 +3502,7 @@ icons:
     id: "life-ring"
     unicode: "f1cd"
     created: 4.1
-    aliases: 
+    aliases:
       - "life-bouy"
       - "life-saver"
       - "support"
@@ -3523,7 +3523,7 @@ icons:
     id: "rebel"
     unicode: "f1d0"
     created: 4.1
-    aliases: 
+    aliases:
       - "ra"
     categories:
       - "Brand Icons"
@@ -3533,7 +3533,7 @@ icons:
     id: "empire"
     unicode: "f1d1"
     created: 4.1
-    aliases: 
+    aliases:
       - "ge"
     categories:
       - "Brand Icons"
@@ -3583,7 +3583,7 @@ icons:
     id: "weixin"
     unicode: "f1d7"
     created: 4.1
-    aliases: 
+    aliases:
       - "wechat"
     categories:
       - "Brand Icons"
@@ -3593,7 +3593,7 @@ icons:
     id: "paper-plane"
     unicode: "f1d8"
     created: 4.1
-    aliases: 
+    aliases:
       - "send"
     categories:
       - "Web Application Icons"
@@ -3603,7 +3603,7 @@ icons:
     id: "paper-plane-o"
     unicode: "f1d9"
     created: 4.1
-    aliases: 
+    aliases:
       - "send-o"
     categories:
       - "Web Application Icons"
@@ -3974,3 +3974,323 @@ icons:
     url:        meanpath.com
     categories:
       - Brand Icons
+
+  - name: "Bed"
+    id: "bed"
+    unicode: "f236"
+    created: 4.3
+    categories:
+      - "Web Application Icons"
+    meta: "hotels sleep rests bunks pillow sheets"
+
+  - name: "Buy Sell Ads"
+    id: "buysellads"
+    unicode: "f20d"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "buysellads.com advertise publish"
+
+  - name: "Cart Arrow Down"
+    id: "cart-arrow-down"
+    unicode: "f218"
+    created: 4.3
+    categories:
+      - "Web Application Icons"
+    meta: "basket ecommerce shopping checkout purchase"
+
+  - name: "Cart Plus"
+    id: "cart-plus"
+    unicode: "f217"
+    created: 4.3
+    categories:
+      - "Web Application Icons"
+    meta: "basket ecommerce shopping checkout purchase"
+
+  - name: "Connect Develop"
+    id: "connectdevelop"
+    unicode: "f20e"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "clients consumers analyse create"
+
+  - name: "DashCube"
+    id: "dashcube"
+    unicode: "f210"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "communicate context collaboration email meetings"
+
+  - name: "Diamond"
+    id: "diamond"
+    unicode: "f219"
+    created: 4.3
+    categories:
+      - "Web Application Icons"
+    meta: "gem jewelry bling ring treasure"
+
+  - name: "Facebook Official"
+    id: "facebook-official"
+    unicode: "f230"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "social"
+
+  - name: "ForumBee"
+    id: "forumbee"
+    unicode: "f211"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "community discussion feedback loyalty"
+
+  - name: "Heartbeat"
+    id: "heartbeat"
+    unicode: "f21e"
+    created: 4.3
+    categories:
+      - "Web Application Icons Medical Icons"
+    meta: "heart health life medical thumb love"
+
+  - name: "leanpub"
+    id: "leanpub"
+    unicode: "f212"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "publish books read author"
+
+  - name: "Mars"
+    id: "mars"
+    unicode: "f222"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "male men boy astrological symbol"
+
+  - name: "Mars Double"
+    id: "mars-double"
+    unicode: "f227"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "male men boy astrological symbol"
+
+  - name: "Mars Stroke"
+    id: "mars-stroke"
+    unicode: "f229"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "male men boy astrological symbol"
+
+  - name: "Mars Stroke Horizontal"
+    id: "mars-stroke-h"
+    unicode: "f22b"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "male men boy astrological symbol"
+
+  - name: "Mars Stroke Vertical"
+    id: "mars-stroke-v"
+    unicode: "f22a"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "male men boy astrological symbol"
+
+  - name: "medium"
+    id: "medium"
+    unicode: "f23a"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "connect social people story stories"
+
+  - name: "Mercury"
+    id: "mercury"
+    unicode: "f223"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "virgin astrological symbol"
+
+  - name: "Motorcycle"
+    id: "motorcycle"
+    unicode: "f21c"
+    created: 4.3
+    categories:
+      - "Web Application Icons Transportation Icons"
+    meta: "automobile street long path highway freeway cars vehicles truck bicycle commute drive run"
+
+  - name: "Neuter"
+    id: "neuter"
+    unicode: "f22c"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "astrological symbol"
+
+  - name: "Pinterest"
+    id: "pinterest-p"
+    unicode: "f231"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "social images"
+
+  - name: "Sellsy"
+    id: "sellsy"
+    unicode: "f213"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "crm ecommerce erp"
+
+  - name: "Server"
+    id: "server"
+    unicode: "f233"
+    created: 4.3
+    categories:
+      - "Web Application Icons"
+    meta: "computer hardware networking devops"
+
+  - name: "Ship"
+    id: "ship"
+    unicode: "f21a"
+    created: 4.3
+    categories:
+      - "Web Application Icons Transportation Icons"
+    meta: "boat sail ocean water fish cruise navy coast sea naval"
+
+  - name: "Shirtsinbulk"
+    id: "shirtsinbulk"
+    unicode: "f214"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "ecommerce clothing t-shirt"
+
+  - name: "SimplyBuilt"
+    id: "simplybuilt"
+    unicode: "f215"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "cloud website builder domain support"
+
+  - name: "Skyatlas"
+    id: "skyatlas"
+    unicode: "f216"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "cloud hosting domain"
+
+  - name: "Street View"
+    id: "street-view"
+    unicode: "f21d"
+    created: 4.3
+    categories:
+      - "Web Application Icons"
+    meta: "web map"
+
+  - name: "Subway"
+    id: "subway"
+    unicode: "f239"
+    created: 4.3
+    categories:
+      - "Transportation Icons"
+    meta: "train rails max"
+
+  - name: "Train"
+    id: "train"
+    unicode: "f238"
+    created: 4.3
+    categories:
+      - "Transportation Icons"
+    meta: "train rails max"
+
+  - name: "Transgender"
+    id: "transgender"
+    unicode: "f224"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "astrological symbol"
+
+  - name: "Transgender Alt"
+    id: "transgender-alt"
+    unicode: "f225"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "astrological symbol"
+
+  - name: "User Plus"
+    id: "user-plus"
+    unicode: "f234"
+    created: 4.3
+    categories:
+      - "Web Application Icons"
+    meta: "customer client visitor guest person man boy woman girl human single individual add new"
+
+  - name: "User Secret"
+    id: "user-secret"
+    unicode: "f21b"
+    created: 4.3
+    categories:
+      - "Web Application Icons"
+    meta: "customer client visitor guest person man boy woman girl human single individual hidden"
+
+  - name: "User Times"
+    id: "user-times"
+    unicode: "f235"
+    created: 4.3
+    categories:
+      - "Web Application Icons"
+    meta: "customer client visitor guest person man boy woman girl human single individual remove delete"
+
+  - name: "Venus"
+    id: "venus"
+    unicode: "f221"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "female girl woman astronomical symbol"
+
+  - name: "Venus Double"
+    id: "venus-double"
+    unicode: "f226"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "female girl woman astronomical symbol"
+
+  - name: "Venus Mars"
+    id: "venus-mars"
+    unicode: "f228"
+    created: 4.3
+    categories:
+      - "Gender Icons"
+    meta: "astronomical symbol"
+
+  - name: "Viacoin"
+    id: "viacoin"
+    unicode: "f237"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "crypto currency bitcoin"
+
+  - name: "WhatsApp"
+    id: "whatsapp"
+    unicode: "f232"
+    created: 4.3
+    categories:
+      - "Brand Icons"
+    meta: "sms messenger"
