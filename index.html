@@ -4,12 +4,12 @@ title: "Font Filter"
 navbar: "fonts"
 ---
 
-<section id="landing-page" class="palette">    
+<section id="landing-page" class="palette">
 <div id="landing-page-banner">
 
   <div class="container">
   <div class="row">
-  
+
     <div class="col-md-10" id="font-cards">
     <div class="row" id="font-cards-row-wrap">
 
@@ -18,7 +18,7 @@ navbar: "fonts"
 
       <div class="col-md-6 card-column">
       <div class="card">
-          
+
           <div class="row icon">
             <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
           </div>
@@ -48,7 +48,7 @@ navbar: "fonts"
             <div class="col-md-6 categories">{{ font.categories }}</div>
           </div>
           <div class="row icon-link">
-            <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome</a>
+            <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome&nbsp;<i class="fa fa-external-link"></i></a>
           </div>
 
         </div><!-- /.card -->
@@ -59,9 +59,9 @@ navbar: "fonts"
     </div><!-- /#font-cards -->
 
     <div class="col-md-2">
-    <div class="fixed-div">    
+    <div class="fixed-div">
       <p>Get updates when a font icon library is added to Fadbus.</p>
-        
+
       {% include blocks/mailchimp.html %}
       {% include blocks/credits.html %}
 
@@ -70,7 +70,7 @@ navbar: "fonts"
 
   </div><!-- /.row -->
   </div><!-- /.container -->
-  
+
 </div><!-- /#landing-page-banner -->
 </section><!-- /#landing-page -->
 
