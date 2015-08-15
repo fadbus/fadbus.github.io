@@ -4294,3 +4294,664 @@ icons:
     categories:
       - "Brand Icons"
     meta: "sms messenger"
+
+  - name:       Genderless
+    id:         genderless
+    unicode:    f22d
+    created:    4.4
+    categories:
+      - Gender Icons
+    meta: ""
+
+  - name:       Facebook Official
+    id:         facebook-official
+    unicode:    f230
+    created:    4.3
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Pinterest P
+    id:         pinterest-p
+    unicode:    f231
+    created:    4.3
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       What's App
+    id:         whatsapp
+    unicode:    f232
+    created:    4.3
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Server
+    id:         server
+    unicode:    f233
+    created:    4.3
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Add User
+    id:         user-plus
+    unicode:    f234
+    created:    4.3
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Remove User
+    id:         user-times
+    unicode:    f235
+    created:    4.3
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Bed
+    id:         bed
+    unicode:    f236
+    created:    4.3
+    filter:
+      - travel
+    aliases:
+      - hotel
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Viacoin
+    id:         viacoin
+    unicode:    f237
+    created:    4.3
+    url:        viacoin.org
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Train
+    id:         train
+    unicode:    f238
+    created:    4.3
+    categories:
+      - Transportation Icons
+    meta: ""
+
+  - name:       Subway
+    id:         subway
+    unicode:    f239
+    created:    4.3
+    categories:
+      - Transportation Icons
+    meta: ""
+
+  - name:       Medium
+    id:         medium
+    unicode:    f23a
+    created:    4.3
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Y Combinator
+    id:         y-combinator
+    unicode:    f23b
+    created:    4.4
+    aliases:
+      - yc
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Optin Monster
+    id:         optin-monster
+    unicode:    f23c
+    created:    4.4
+    url:        optinmonster.com
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       OpenCart
+    id:         opencart
+    unicode:    f23d
+    created:    4.4
+    url:        opencart.com
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       ExpeditedSSL
+    id:         expeditedssl
+    unicode:    f23e
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Battery Full
+    id:         battery-full
+    unicode:    f240
+    created:    4.4
+    aliases:
+      - battery-4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Battery 3/4 Full
+    id:         battery-three-quarters
+    unicode:    f241
+    created:    4.4
+    aliases:
+      - battery-3
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Battery 1/2 Full
+    id:         battery-half
+    unicode:    f242
+    created:    4.4
+    aliases:
+      - battery-2
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Battery 1/4 Full
+    id:         battery-quarter
+    unicode:    f243
+    created:    4.4
+    aliases:
+      - battery-1
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Battery Empty
+    id:         battery-empty
+    unicode:    f244
+    created:    4.4
+    aliases:
+      - battery-0
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Mouse Pointer
+    id:         mouse-pointer
+    unicode:    f245
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       I Beam Cursor
+    id:         i-cursor
+    unicode:    f246
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Object Group
+    id:         object-group
+    unicode:    f247
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Object Ungroup
+    id:         object-ungroup
+    unicode:    f248
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Sticky Note
+    id:         sticky-note
+    unicode:    f249
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Sticky Note Outlined
+    id:         sticky-note-o
+    unicode:    f24a
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       JCB Credit Card
+    id:         cc-jcb
+    unicode:    f24b
+    created:    4.4
+    categories:
+      - Brand Icons
+      - Payment Icons
+    meta: ""
+
+  - name:       Diner's Club Credit Card
+    id:         cc-diners-club
+    unicode:    f24c
+    created:    4.4
+    categories:
+      - Brand Icons
+      - Payment Icons
+    meta: ""
+
+  - name:       Clone
+    id:         clone
+    unicode:    f24d
+    created:    4.4
+    filter:
+      - copy
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Balance Scale
+    id:         balance-scale
+    unicode:    f24e
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Hourglass Outlined
+    id:         hourglass-o
+    unicode:    f250
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Hourglass Start
+    id:         hourglass-start
+    unicode:    f251
+    created:    4.4
+    aliases:
+      - hourglass-1
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Hourglass Half
+    id:         hourglass-half
+    unicode:    f252
+    created:    4.4
+    aliases:
+      - hourglass-2
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Hourglass End
+    id:         hourglass-end
+    unicode:    f253
+    created:    4.4
+    aliases:
+      - hourglass-3
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Hourglass
+    id:         hourglass
+    unicode:    f254
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Rock (Hand)
+    id:         hand-rock-o
+    unicode:    f255
+    created:    4.4
+    aliases:
+      - hand-grab-o
+    categories:
+      - Web Application Icons
+      - Hand Icons
+    meta: ""
+
+  - name:       Paper (Hand)
+    id:         hand-paper-o
+    unicode:    f256
+    created:    4.4
+    aliases:
+      - hand-stop-o
+    categories:
+      - Web Application Icons
+      - Hand Icons
+    meta: ""
+
+  - name:       Scissors (Hand)
+    id:         hand-scissors-o
+    unicode:    f257
+    created:    4.4
+    categories:
+      - Web Application Icons
+      - Hand Icons
+    meta: ""
+
+  - name:       Lizard (Hand)
+    id:         hand-lizard-o
+    unicode:    f258
+    created:    4.4
+    categories:
+      - Web Application Icons
+      - Hand Icons
+    meta: ""
+
+  - name:       Spock (Hand)
+    id:         hand-spock-o
+    unicode:    f259
+    created:    4.4
+    categories:
+      - Web Application Icons
+      - Hand Icons
+    meta: ""
+
+  - name:       Hand Pointer
+    id:         hand-pointer-o
+    unicode:    f25a
+    created:    4.4
+    categories:
+      - Web Application Icons
+      - Hand Icons
+    meta: ""
+
+  - name:       Hand Peace
+    id:         hand-peace-o
+    unicode:    f25b
+    created:    4.4
+    categories:
+      - Web Application Icons
+      - Hand Icons
+    meta: ""
+
+  - name:       Trademark
+    id:         trademark
+    unicode:    f25c
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Registered Trademark
+    id:         registered
+    unicode:    f25d
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Creative Commons
+    id:         creative-commons
+    unicode:    f25e
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       GG Currency
+    id:         gg
+    unicode:    f260
+    created:    4.4
+    categories:
+      - Currency Icons
+      - Brand Icons
+    meta: ""
+
+  - name:       GG Currency Circle
+    id:         gg-circle
+    unicode:    f261
+    created:    4.4
+    categories:
+      - Currency Icons
+      - Brand Icons
+    meta: ""
+
+  - name:       TripAdvisor
+    id:         tripadvisor
+    unicode:    f262
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Odnoklassniki
+    id:         odnoklassniki
+    unicode:    f263
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Odnoklassniki Square
+    id:         odnoklassniki-square
+    unicode:    f264
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Get Pocket
+    id:         get-pocket
+    unicode:    f265
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Wikipedia W
+    id:         wikipedia-w
+    unicode:    f266
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Safari
+    id:         safari
+    unicode:    f267
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Chrome
+    id:         chrome
+    unicode:    f268
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Firefox
+    id:         firefox
+    unicode:    f269
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Opera
+    id:         opera
+    unicode:    f26a
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Internet-explorer
+    id:         internet-explorer
+    unicode:    f26b
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Television
+    id:         television
+    unicode:    f26c
+    created:    4.4
+    aliases:
+      - tv
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Contao
+    id:         contao
+    unicode:    f26d
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       500px
+    id:         500px
+    unicode:    f26e
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Amazon
+    id:         amazon
+    unicode:    f270
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Calendar Plus Outlined
+    id:         calendar-plus-o
+    unicode:    f271
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Calendar Minus Outlined
+    id:         calendar-minus-o
+    unicode:    f272
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Calendar Times Outlined
+    id:         calendar-times-o
+    unicode:    f273
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Calendar Check Outlined
+    id:         calendar-check-o
+    unicode:    f274
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Industry
+    id:         industry
+    unicode:    f275
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Map Pin
+    id:         map-pin
+    unicode:    f276
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Map Signs
+    id:         map-signs
+    unicode:    f277
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Map Outline
+    id:         map-o
+    unicode:    f278
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Map
+    id:         map
+    unicode:    f279
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Commenting
+    id:         commenting
+    unicode:    f27a
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Commenting Outlined
+    id:         commenting-o
+    unicode:    f27b
+    created:    4.4
+    categories:
+      - Web Application Icons
+    meta: ""
+
+  - name:       Houzz
+    id:         houzz
+    unicode:    f27c
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Vimeo
+    id:         vimeo
+    unicode:    f27d
+    created:    4.4
+    categories:
+      - Brand Icons
+    meta: ""
+
+  - name:       Font Awesome Black Tie
+    id:         black-tie
+    unicode:    f27e
+    created:    4.4
+    url:        blacktie.io
+    categories:
+      - Brand Icons
+    meta: "blacktie"
+
+  - name:       Fonticons
+    id:         fonticons
+    unicode:    f280
+    created:    4.4
+    url:        fonticons.com
+    categories:
+      - Brand Icons
