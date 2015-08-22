@@ -15,7 +15,7 @@ navbar: "fonts"
     {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
     {% for font in fonts %}
 
-      <div class="col-md-4 card-column">
+      <div class="col-md-6 card-column">
       <div class="card">
 
           <div class="row icon">
@@ -27,25 +27,7 @@ navbar: "fonts"
           <div class="row icon-code">
             <code>&lt;i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"&gt;&lt;/i&gt;</code>
           </div>
-          <div class="row">
-            <div class="col-md-6 meta">class:</div>
-            <div class="col-md-6 class">{{ site.data.fontawesome.prefix }}{{ font.id }}</div>
-            <!-- hide the metadata row, but it must be included -->
-            <div class="col-md-6 meta hidden">metadata:</div>
-            <div class="col-md-6 class hidden">{{ font.meta }}</div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 meta">unicode:</div>
-            <div class="col-md-6 unicode">{{ font.unicode }}</div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 meta">version:</div>
-            <div class="col-md-6 version">{{ font.created }}</div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 meta">categories:</div>
-            <div class="col-md-6 categories">{{ font.categories }}</div>
-          </div>
+          <span class="col-md-6 searchable hidden">{{ font.meta }} | {{ font.id }} | {{ font.unicode }} | {{ font.created }} | {{ font.categories}}</span>
           <div class="row icon-link">
             <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome&nbsp;<i class="fa fa-external-link"></i></a>
           </div>
@@ -61,4 +43,3 @@ navbar: "fonts"
   </div><!-- /.container -->
 
 </section><!-- /#landing-page -->
-
