@@ -1,3 +1,5 @@
+/* sass assets/scss/custom.scss:assets/css/custom.min.css --style compressed  */
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* font imports
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -45,6 +47,8 @@ html, body { height: 100%; }
 body {
   padding-top: 80px;
   font-family: $sansSerifFont;
+  background: url('/assets/img/paper.png') repeat;
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
