@@ -14,36 +14,26 @@ navbar: "fonts"
 
     {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
     {% for font in fonts %}
-
       <div class="col-md-6 card-column">
-      <div class="card">
-        <div class="row">
-          <div class="col-xs-2">
-            <div class="icon">
-              <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
+        <div class="card">
+          <a href="#" data-toggle="modal" data-target="#myModal">
+          <div class="row">
+            <div class="col-xs-2">
+              <div class="icon">
+                <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
+              </div>
             </div>
-          </div>
-          <div class="col-xs-10">
-            <div class="icon-name">
-              {{ font.name }}
+            <div class="col-xs-10">
+              <div class="icon-name">
+                {{ font.name }}
+              </div>
             </div>
+            <span class="col-md-6 searchable hidden">{{ font.meta }} | {{ font.id }} | {{ font.unicode }} | {{ font.created }} | {{ font.categories}}</span>
           </div>
-        </div>
-        <!-- /.row -->
-
-          <div class="row icon-code">
-            <code>&lt;i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"&gt;&lt;/i&gt;</code>
-          </div>
-          <span class="col-md-6 searchable hidden">{{ font.meta }} | {{ font.id }} | {{ font.unicode }} | {{ font.created }} | {{ font.categories}}</span>
-          <div class="row icon-link">
-            <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome&nbsp;<i class="fa fa-external-link"></i></a>
-          </div>
-          <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">
-            Launch demo modal
-          </button>
-
+          <!-- /.row -->
+          </a>
         </div><!-- /.card -->
-        </div><!-- /.card-column -->
+      </div><!-- /.card-column -->
     {% endfor %}
 
     </div><!-- /#font-cards-row-wrap -->
@@ -55,14 +45,17 @@ navbar: "fonts"
         <div class="modal-content">
           <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+            <h4 class="modal-title" id="myModalLabel">Example FontAwesome Icon</h4>
           </div>
           <div class="modal-body">
-            ...
+            <p>Meta, ID, Unicode, created, categories, etc.</p>
+            <div class="row icon-code">
+              <code>&lt;i class="fa fa-example"&gt;&lt;/i&gt;</code>
+            </div>
           </div>
           <div class="modal-footer">
+            <a href="#" target="_blank"class="btn btn-primary">View on FontAwesome&nbsp;<i class="fa fa-external-link"></i></a>
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
           </div>
         </div>
       </div>
