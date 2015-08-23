@@ -17,13 +17,20 @@ navbar: "fonts"
 
       <div class="col-md-6 card-column">
       <div class="card">
+        <div class="row">
+          <div class="col-xs-2">
+            <div class="icon">
+              <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
+            </div>
+          </div>
+          <div class="col-xs-10">
+            <div class="icon-name">
+              {{ font.name }}
+            </div>
+          </div>
+        </div>
+        <!-- /.row -->
 
-          <div class="row icon">
-            <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
-          </div>
-          <div class="row icon-name">
-            {{ font.name }}
-          </div>
           <div class="row icon-code">
             <code>&lt;i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"&gt;&lt;/i&gt;</code>
           </div>
