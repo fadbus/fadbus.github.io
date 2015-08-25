@@ -7,16 +7,13 @@ navbar: "fonts"
 <section id="landing-page" class="palette">
 
   <div class="container">
-  <div class="row">
-
-    <div class="col-md-12 font-cards">
     <div class="row" id="font-cards-row-wrap">
 
     {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
     {% for font in fonts %}
       <div class="col-md-6 card-column">
         <div class="card">
-          <a href="#" data-toggle="modal" data-target="#myModal">
+          <a href="#" data-toggle="modal" data-target="#myModal" class="link-div">
           <div class="row">
             <div class="col-xs-2">
               <div class="icon">
@@ -35,9 +32,6 @@ navbar: "fonts"
         </div><!-- /.card -->
       </div><!-- /.card-column -->
     {% endfor %}
-
-    </div><!-- /#font-cards-row-wrap -->
-    </div><!-- /#font-cards -->
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -59,7 +53,7 @@ navbar: "fonts"
           </div>
         </div>
       </div>
-    </div>
+    </div><!-- /.modal -->
 
   </div><!-- /.row -->
   </div><!-- /.container -->
