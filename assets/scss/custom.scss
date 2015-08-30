@@ -30,6 +30,7 @@ $scriptFont: 'Lobster';
 /*variables -- sizes*/
 
 /*variables -- colors*/
+$coreBackgroundColor: #7baaf7;
 $subtleGray: #eee;
 $light: #efefef;
 
@@ -47,7 +48,8 @@ html, body { height: 100%; }
 body {
   padding-top: 80px;
   font-family: $sansSerifFont;
-  background: url('/assets/img/paper.png') repeat;
+  // background-color: $coreBackgroundColor;
+  background: url('/assets/img/texturetastic_gray.png') repeat;
   background-attachment: fixed;
 }
 
