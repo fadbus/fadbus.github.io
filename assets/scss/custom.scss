@@ -32,6 +32,7 @@ $sansSerifFont: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $coreBackgroundColor: #7baaf7;
 $subtleGray: #eee;
 $light: #efefef;
+$activeCallout: #a29e5e;
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* resets
@@ -88,6 +89,7 @@ a:visited { color: #00a; }
   font-size: 20px;
   font-weight: 400;
   font-family: $monoSpaceFont;
+  color: $activeCallout;
 }
 
 @media (min-width: 768px){
@@ -243,7 +245,7 @@ input[type=search], input[type=search]:focus {
   color: #666;
   margin-bottom: 2em;
   border:1px solid #ddd;
-  // box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  opacity: 0.90;
 }
 
 .card .row {
@@ -274,6 +276,10 @@ a.link-div {
 a.link-div:hover {
   border: 1px solid #ccc;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  color: $activeCallout;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
