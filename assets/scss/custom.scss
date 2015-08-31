@@ -122,8 +122,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
-  // background-color: #fff;
-  // border-bottom: 1px solid #aaa;
+  background-color: $subtleGray;
+  border-bottom: 1px solid darken( $subtleGray, 15% );
 }
 
 .tooltip-inner {
@@ -139,9 +139,10 @@ h1 small {
   height: 36px;
   padding: 6px 12px;
   font-size: 18px;
-  color: $coreBackgroundColor;
-  background-color: #fff;
-  border: 1px solid darker( $subtleGray, 10% );
+  font-family: $serifFont;
+  color: darken( $coreBackgroundColor, 15% );
+  background-color: lighten( $subtleGray, 25% );
+  border: 1px solid darken( $subtleGray, 15% );
   border-radius: 0px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
@@ -150,27 +151,37 @@ h1 small {
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+.dropdown-menu {
+  background-color: $subtleGray;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid darken( $subtleGray, 15% );
+  border-radius: 0px;
+  -webkit-box-shadow: 0 6px 12px darken( $subtleGray, 15% );
+  box-shadow: 0 6px 12px darken( $subtleGray, 15% );
+}
+
 .btn {
   border-radius: 0px;
 }
 
-input::-webkit-input-placeholder {
-  color: lighter( $subtleGray, 20% );
+.form-control::-webkit-input-placeholder {
+  color: darken( $subtleGray, 10% );
   font-weight: 100;
 }
 
-input:-moz-placeholder { /* Firefox 18- */
-  color: lighter( $subtleGray, 20% );
+.form-control:-moz-placeholder { /* Firefox 18- */
+  color: darken( $subtleGray, 10% );
   font-weight: 100;
 }
 
-input::-moz-placeholder {  /* Firefox 19+ */
-  color: lighter( $subtleGray, 20% );
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+  color: darken( $subtleGray, 10% );
   font-weight: 100;
 }
 
-input:-ms-input-placeholder {
-  color: lighter( $subtleGray, 20% );
+.form-control:-ms-input-placeholder {
+  color: darken( $subtleGray, 10% );
   font-weight: 100;
 }
 
@@ -279,7 +290,7 @@ a.link-div:hover {
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  color: $activeCallout;
+  color: darken( $activeCallout, 10% );
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
