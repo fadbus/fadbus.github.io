@@ -48,8 +48,8 @@ html, body { height: 100%; }
 body {
   padding-top: 80px;
   font-family: $sansSerifFont;
-  // background-color: $coreBackgroundColor;
-  background: url('/assets/img/texturetastic_gray.png') repeat;
+  background-color: $coreBackgroundColor;
+  // background: url('/assets/img/texturetastic_gray.png') repeat;
   background-attachment: fixed;
 }
 
@@ -285,7 +285,7 @@ a.link-div {
 }
 
 a.link-div:hover {
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
   -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
   -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
