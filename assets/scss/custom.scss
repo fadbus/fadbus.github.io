@@ -163,6 +163,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: lighen( $coreBackgroundColor, 10% );
 }
 
+.modal-content {
+  border-radius: 0px;
+}
+
 .tooltip-inner {
   width: 400px;
   min-width: 400px;
