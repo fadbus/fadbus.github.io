@@ -13,7 +13,7 @@ navbar: "fonts"
     {% for font in fonts %}
       <div class="col-md-6 card-column">
         <div class="card">
-          <a href="#" data-toggle="modal" data-target="#myModal" class="link-div">
+          <a href="#" data-font-id="{{ font.id }}" data-font-name="{{ font.name }}" data-font-meta="{{ font.meta }}" data-font-categories="{{ font.categories}}" data-font-unicode="{{ font.unicode }}" class="link-div">
           <div class="row">
             <div class="col-xs-2">
               <div class="icon">
@@ -33,27 +33,7 @@ navbar: "fonts"
       </div><!-- /.card-column -->
     {% endfor %}
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Example FontAwesome Icon</h4>
-          </div>
-          <div class="modal-body">
-            <p>Meta, ID, Unicode, created, categories, etc.</p>
-            <div class="row icon-code">
-              <code>&lt;i class="fa fa-example"&gt;&lt;/i&gt;</code>
-            </div>
-          </div>
-          <div class="modal-footer">
-            <a href="#" target="_blank"class="btn btn-primary">View on FontAwesome&nbsp;<i class="fa fa-external-link"></i></a>
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div><!-- /.modal -->
+    {% include blocks/font-modal.html %}
 
   </div><!-- /.row -->
   </div><!-- /.container -->
