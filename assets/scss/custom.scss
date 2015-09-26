@@ -46,7 +46,7 @@ $activeCallout: #a29e5e;
 html, body { height: 100%; }
 
 body {
-  padding-top: 80px;
+  /*padding-top: 80px;*/
   font-family: $sansSerifFont;
   background-color: lighten( $coreBackgroundColor, 18% );
   // background: url('/assets/img/texturetastic_gray.png') repeat;
@@ -102,6 +102,12 @@ a:visited { color: #00a; }
   color: #fff;
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: lighten( $activeCallout, 10% );
+  font-weight: 700;
+  background-color: transparent;
+}
+
 .navbar-toggle {
   border-radius: 0px;
 }
@@ -117,6 +123,13 @@ a:visited { color: #00a; }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
   color: #fff;
   background-color: darken( $coreBackgroundColor, 20% );
+}
+
+.navbar-subnavbar {
+  height: 100px;
+  padding-top: 30px;
+  border-color: transparent;
+  border-radius: 0px;
 }
 
 @media (min-width: 768px){
