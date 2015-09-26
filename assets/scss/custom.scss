@@ -205,6 +205,12 @@ h1 small {
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+#font-filter-box{
+  display: inline;
+  width: 60%;
+  float:right;
+}
+
 .btn {
   border-radius: 0px;
 }
