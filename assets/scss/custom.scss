@@ -98,6 +98,12 @@ a:visited { color: #00a; }
   border-color: transparent;
 }
 
+@media (min-width: 360px){
+  .navbar-nav>li {
+    float: left;
+  }
+}
+
 .navbar-default .navbar-nav>li>a {
   color: #fff;
 }
@@ -127,7 +133,7 @@ a:visited { color: #00a; }
 
 .navbar-subnavbar {
   height: 100px;
-  padding-top: 30px;
+  padding-top: 50px;
   border-color: transparent;
   border-radius: 0px;
 }
