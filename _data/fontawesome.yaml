@@ -2851,7 +2851,7 @@ icons:
     created: 3.2
     categories:
       - "Brand Icons"
-    meta: "operating system os phone"
+    meta: "operating system os phone google"
 
   - name: "Linux"
     id: "linux"
@@ -4775,7 +4775,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "google browser os"
 
   - name:       Firefox
     id:         firefox
