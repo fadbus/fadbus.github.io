@@ -30,6 +30,7 @@ $sansSerifFont: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 
 /*variables -- colors*/
 $coreBackgroundColor: #7baaf7;
+$coreHyperlink: #00a;
 $subtleGray: #eee;
 $light: #efefef;
 $activeCallout: #a29e5e;
@@ -67,9 +68,9 @@ p {
   margin-bottom: 1em;
 }
 
-a { color: #00a; }
-a:hover { color: #00a; }
-a:visited { color: #00a; }
+a { color: $coreHyperlink; }
+a:hover { color: $coreHyperlink; }
+a:visited { color: $coreHyperlink; }
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -105,15 +106,29 @@ a:visited { color: #00a; }
   }
 }
 
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+  color: lighten( $coreHyperlink, 10% );
+  background-color: transparent;
+}
+
 .navbar-default .navbar-nav>li>a {
-  color: #fff;
+  color: lighten( $coreHyperlink, 60% );
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  color: lighten( $activeCallout, 10% );
-  font-weight: 700;
-  background-color: transparent;
+    color: #fff;
+    background-color: lighten( $coreHyperlink, 40% );
 }
+
+.navbar-default .navbar-nav>li:hover {
+  background-color: $coreBackgroundColor;
+  color: $coreHyperlink;
+  -webkit-transition: 300ms linear 0s;
+  -moz-transition: 300ms linear 0s;
+  -o-transition: 300ms linear 0s;
+  transition: 300ms linear 0s;
+  outline: 0 none;
+;}
 
 .navbar-toggle {
   border-radius: 0px;
@@ -134,7 +149,7 @@ a:visited { color: #00a; }
 
 .navbar-subnavbar {
   height: 100px;
-  padding-top: 50px;
+  padding-top: 48px;
   border-color: transparent;
   border-radius: 0px;
 }
@@ -246,7 +261,7 @@ a.brand {
 }
 
 a.brand:hover {
-  color: #00a;
+  color: $coreHyperlink;
   text-decoration: none;
 }
 
@@ -284,8 +299,9 @@ a.brand:hover {
 }
 
 .footer-copyright{
-  color: $coreBackgroundColor;
-  font-size: 10px;
+  color: darken( $coreBackgroundColor, 22% );
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .horizontal-padding-small {
