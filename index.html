@@ -4,73 +4,38 @@ title: "Font Filter"
 navbar: "fonts"
 ---
 
-<section id="landing-page" class="palette">
-<div id="landing-page-banner">
+<section id="font-result-list" class="landing-page palette">
 
   <div class="container">
-  <div class="row">
-
-    <div class="col-md-10" id="font-cards">
     <div class="row" id="font-cards-row-wrap">
 
     {% assign fonts = site.data.fontawesome.icons | sort: 'name' %}
     {% for font in fonts %}
-
       <div class="col-md-6 card-column">
-      <div class="card">
-
-          <div class="row icon">
-            <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
-          </div>
-          <div class="row icon-name">
-            {{ font.name }}
-          </div>
-          <div class="row icon-code">
-            <code>&lt;i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"&gt;&lt;/i&gt;</code>
-          </div>
+        <div class="card">
+          <a href="#" data-font-id="{{ font.id }}" data-font-name="{{ font.name }}" data-font-meta="{{ font.meta }}" data-font-categories="{{ font.categories}}" data-font-unicode="{{ font.unicode }}" data-font-created="{{ font.created }}" class="link-div">
           <div class="row">
-            <div class="col-md-6 meta">class:</div>
-            <div class="col-md-6 class">{{ site.data.fontawesome.prefix }}{{ font.id }}</div>
-            <!-- hide the metadata row, but it must be included -->
-            <div class="col-md-6 meta hidden">metadata:</div>
-            <div class="col-md-6 class hidden">{{ font.meta }}</div>
+            <div class="col-xs-2">
+              <div class="icon">
+                <i class="fa {{ site.data.fontawesome.prefix }}{{ font.id }}"></i>
+              </div>
+            </div>
+            <div class="col-xs-10">
+              <div class="icon-name">
+                {{ font.name }}
+              </div>
+            </div>
+            <span class="col-md-6 searchable hidden">{{ font.meta }} | {{ font.id }} | {{ font.unicode }} | {{ font.created }} | {{ font.categories}}</span>
           </div>
-          <div class="row">
-            <div class="col-md-6 meta">unicode:</div>
-            <div class="col-md-6 unicode">{{ font.unicode }}</div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 meta">version:</div>
-            <div class="col-md-6 version">{{ font.created }}</div>
-          </div>
-          <div class="row">
-            <div class="col-md-6 meta">categories:</div>
-            <div class="col-md-6 categories">{{ font.categories }}</div>
-          </div>
-          <div class="row icon-link">
-            <a href="{{ site.fontAwesomeFontBaseUrl }}{{ font.id }}" data-toggle="tooltip" data-placement="right" rel="tooltip" title="{{ font.meta }}" target="_blank">View on FontAwesome&nbsp;<i class="fa fa-external-link"></i></a>
-          </div>
-
+          <!-- /.row -->
+          </a>
         </div><!-- /.card -->
-        </div><!-- /.card-column -->
+      </div><!-- /.card-column -->
     {% endfor %}
 
-    </div><!-- /#font-cards-row-wrap -->
-    </div><!-- /#font-cards -->
-
-    <div class="col-md-2">
-    <div class="fixed-div">
-      <p>Get updates when a font icon library is added to Fadbus.</p>
-
-      {% include blocks/mailchimp.html %}
-      {% include blocks/credits.html %}
-
-    </div><!-- /.fixed-div -->
-    </div><!-- /.fixed -->
+    {% include blocks/font-modal.html %}
 
   </div><!-- /.row -->
   </div><!-- /.container -->
 
-</div><!-- /#landing-page-banner -->
 </section><!-- /#landing-page -->
-
