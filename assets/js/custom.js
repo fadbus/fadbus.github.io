@@ -27,14 +27,14 @@ $(document).ready(function(){
     var fontCategories = $(this).data("font-categories");
 
 
-    var iconCode = '<code>&lt;i class="fa fa-' +fontId+ '"&gt;&lt;/i&gt;</code>';
+    var iconCode = '&lt;i class="fa fa-' +fontId+ '"&gt;&lt;/i&gt;';
     var iconMeta = fontMeta;
 
     $("#font-icon-title").html(fontName);
-    $("#icon-code").html(iconCode);
+    $("#font-icon-code").html(iconCode);
     $("#font-icon-id").html(fontId);
     $("#fontawesome-url").attr("href", "http://fortawesome.github.io/Font-Awesome/icon/" +fontId+ "/");
-    $('#font-icon').html('<i class="fa fa-' +fontId+ ' fa-5x"></i>');
+    $('#font-icon-icon').html('<i class="fa fa-' +fontId+ ' fa-5x"></i>');
     $("#font-icon-details").html("Unicode: " +fontUnicode+ " · Created: " +fontCreated+ " · Categories: " +fontCategories);
     $("#font-icon-meta").html(iconMeta);
 
