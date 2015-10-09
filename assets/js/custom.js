@@ -37,13 +37,11 @@ $(document).ready(function(){
       iconDetails += "<li><b>Unicode:</b>&nbsp;"+fontUnicode+"</li>";
     }
 
-    if(fontCreated.length > 0){
-      iconDetails += "<li><b>Created:</b>&nbsp;"+fontCreated+"</li>";
-    }
-
     if(fontCategories.length > 0){
       iconDetails += "<li><b>Categories:</b>&nbsp;"+fontCategories+"</li>";
     }
+
+    iconDetails += "<li><b>Introduced:</b>&nbsp;FontAwesome v"+fontCreated+"</li>";
 
     $("#font-icon-title").html(fontName);
     $("#font-icon-code").html(iconCode);
