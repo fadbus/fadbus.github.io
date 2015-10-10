@@ -1825,7 +1825,7 @@ icons:
     created: 3
     categories:
       - "Web Application Icons"
-    meta: "tower edifice company business structure"
+    meta: "tower edifices company business structure"
 
   - name: "hospital Outlined"
     id: "hospital-o"
@@ -1833,7 +1833,7 @@ icons:
     created: 3
     categories:
       - "Medical Icons"
-    meta: "tower edifice help medical health dental dentist pharmacist ambulance doctor nurse business structure"
+    meta: "tower edifices help medical health dental dentist pharmacist ambulance doctor nurse business structure"
 
   - name: "ambulance"
     id: "ambulance"
@@ -1891,7 +1891,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: "navigation forwards"
+    meta: "navigation backwards"
 
   - name: "Angle Double Right"
     id: "angle-double-right"
@@ -1899,7 +1899,7 @@ icons:
     created: 3
     categories:
       - "Directional Icons"
-    meta: "navigation backwards"
+    meta: "navigation forwards"
 
   - name: "Angle Double Up"
     id: "angle-double-up"
@@ -3242,7 +3242,7 @@ icons:
     created: 4.1
     categories:
       - "Web Application Icons"
-    meta: "tower edifice company business structure"
+    meta: "tower edifices company business structure"
 
   - name: "Child"
     id: "child"
@@ -4751,7 +4751,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "reading offline"
 
   - name:       Wikipedia W
     id:         wikipedia-w
@@ -4759,7 +4759,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "encyclopedia knowledge research web"
 
   - name:       Safari
     id:         safari
@@ -4767,7 +4767,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "web browsers apple mac"
 
   - name:       Chrome
     id:         chrome
@@ -4775,7 +4775,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: "google browser os"
+    meta: "web google browsers os"
 
   - name:       Firefox
     id:         firefox
@@ -4783,7 +4783,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "web browsers mozilla"
 
   - name:       Opera
     id:         opera
@@ -4791,7 +4791,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "web browsers"
 
   - name:       Internet-explorer
     id:         internet-explorer
@@ -4799,7 +4799,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "web ie i.e. browsers microsoft"
 
   - name:       Television
     id:         television
@@ -4809,7 +4809,7 @@ icons:
       - tv
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "tv t.v. shows sitcoms monitors"
 
   - name:       Contao
     id:         contao
@@ -4817,7 +4817,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "web internet cms websites"
 
   - name:       500px
     id:         500px
@@ -4825,7 +4825,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "photos photography sharing social images"
 
   - name:       Amazon
     id:         amazon
@@ -4833,7 +4833,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "shopping internet jungles females warriors rivers"
 
   - name:       Calendar Plus Outlined
     id:         calendar-plus-o
@@ -4841,7 +4841,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "dates days weeks months years time schedules"
 
   - name:       Calendar Minus Outlined
     id:         calendar-minus-o
@@ -4849,7 +4849,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "dates days weeks months years time schedules"
 
   - name:       Calendar Times Outlined
     id:         calendar-times-o
@@ -4857,7 +4857,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "dates days weeks months years time schedules"
 
   - name:       Calendar Check Outlined
     id:         calendar-check-o
@@ -4865,7 +4865,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "dates days weeks months years time schedules"
 
   - name:       Industry
     id:         industry
@@ -4873,7 +4873,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "manufactures builds buildings goods factory factories edifices"
 
   - name:       Map Pin
     id:         map-pin
@@ -4881,7 +4881,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "directions folds charts courses seeks lost loses finds found"
 
   - name:       Map Signs
     id:         map-signs
@@ -4889,7 +4889,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "directions folds charts courses seeks lost loses finds found"
 
   - name:       Map Outline
     id:         map-o
@@ -4897,7 +4897,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "directions folds charts courses seeks lost loses finds found"
 
   - name:       Map
     id:         map
@@ -4905,7 +4905,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "directions folds charts courses seeks lost loses finds found"
 
   - name:       Commenting
     id:         commenting
@@ -4913,7 +4913,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "chats responds bubbles words"
 
   - name:       Commenting Outlined
     id:         commenting-o
@@ -4921,7 +4921,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "chats responds bubbles words"
 
   - name:       Houzz
     id:         houzz
@@ -4929,7 +4929,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "houses homes interior designs"
 
   - name:       Vimeo
     id:         vimeo
@@ -4937,7 +4937,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "videos sharing social"
 
   - name:       Font Awesome Black Tie
     id:         black-tie
@@ -4946,7 +4946,7 @@ icons:
     url:        blacktie.io
     categories:
       - Brand Icons
-    meta: "blacktie"
+    meta: "web design internet blacktie fontawesome fortawesome"
 
   - name:       Fonticons
     id:         fonticons
@@ -4955,3 +4955,4 @@ icons:
     url:        fonticons.com
     categories:
       - Brand Icons
+    meta: "web design internet blacktie fontawesome fortawesome"
