@@ -4685,7 +4685,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "registers trademarks legal symbol"
 
   - name:       Registered Trademark
     id:         registered
@@ -4693,7 +4693,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "registers trademarks legal symbol"
 
   - name:       Creative Commons
     id:         creative-commons
@@ -4701,7 +4701,7 @@ icons:
     created:    4.4
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "licenses freedoms legal"
 
   - name:       GG Currency
     id:         gg
@@ -4710,7 +4710,7 @@ icons:
     categories:
       - Currency Icons
       - Brand Icons
-    meta: ""
+    meta: "groups"
 
   - name:       GG Currency Circle
     id:         gg-circle
@@ -4719,7 +4719,7 @@ icons:
     categories:
       - Currency Icons
       - Brand Icons
-    meta: ""
+    meta: "groups"
 
   - name:       TripAdvisor
     id:         tripadvisor
@@ -4727,7 +4727,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "travel social reviews owls"
 
   - name:       Odnoklassniki
     id:         odnoklassniki
@@ -4735,7 +4735,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "persons users social"
 
   - name:       Odnoklassniki Square
     id:         odnoklassniki-square
@@ -4743,7 +4743,7 @@ icons:
     created:    4.4
     categories:
       - Brand Icons
-    meta: ""
+    meta: "persons users social"
 
   - name:       Get Pocket
     id:         get-pocket
@@ -4809,7 +4809,7 @@ icons:
       - tv
     categories:
       - Web Application Icons
-    meta: "tv t.v. shows sitcoms monitors"
+    meta: "tv t.v. televisions shows sitcoms monitors"
 
   - name:       Contao
     id:         contao
