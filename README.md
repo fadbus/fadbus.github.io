@@ -25,7 +25,7 @@ FADBUS needs to be downloaded from the Github repository, do so using the typica
 
 ##### Run Server
 
-     $ jekyll serve --watch
+     $ jekyll serve
 
 ##### Test in Browser
 
@@ -36,3 +36,11 @@ FADBUS needs to be downloaded from the Github repository, do so using the typica
   [2]: http://jekyllrb.com/docs/installation/
   [3]: https://github.com/fadbus/fadbus.github.io/archive/master.zip
   [4]: http://localhost:4000/
+
+#### Additional Commands
+
+##### Compile sass to css
+    $ sass assets/scss/custom.scss:assets/css/custom.min.css --style compressed
+
+##### Update assets
+    $ bower install
