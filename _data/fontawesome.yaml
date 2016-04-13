@@ -695,7 +695,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "hooks asks query helps"
+    meta: "hooks asks query helps assists"
 
   - name: "Info Circle"
     id: "info-circle"
@@ -2193,7 +2193,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: "hooks asks query helps"
+    meta: "hooks asks query helps assists"
 
   - name: "Info"
     id: "info"
@@ -2242,7 +2242,7 @@ icons:
     created: 3.1
     categories:
       - "Web Application Icons"
-    meta: "toys flummox perplex questions asks helps"
+    meta: "toys flummox perplex questions asks helps assists"
 
   - name: "microphone"
     id: "microphone"
@@ -5124,3 +5124,210 @@ icons:
     categories:
       - Web Application Icons
     meta: "symbol ratio fraction modulus"
+
+  - name:       GitLab
+    id:         gitlab
+    unicode:    f296
+    created:    4.6
+    url:        gitlab.com
+    categories:
+    - Brand Icons
+    meta: "social programming source code test deploy continuous integration ci tanuki"
+
+  - name:       WPBeginner
+    id:         wpbeginner
+    unicode:    f297
+    created:    4.6
+    url:        wpbeginner.com
+    categories:
+    - Brand Icons
+    meta: "wordpress blog cms hosting"
+
+  - name:       WPForms
+    id:         wpforms
+    unicode:    f298
+    created:    4.6
+    url:        wpforms.com
+    categories:
+    - Brand Icons
+    meta: "wordpress form contact plugins plug-ins"
+
+  - name:       Envira Gallery
+    id:         envira
+    unicode:    f299
+    created:    4.6
+    url:        enviragallery.com
+    categories:
+    - Brand Icons
+    meta: "wordpress gallery plugins plug-ins"
+
+  - name:       Universal Access
+    id:         universal-access
+    unicode:    f29a
+    created:    4.6
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: ""
+
+  - name:       Wheelchair Alt
+    id:         wheelchair-alt
+    unicode:    f29b
+    created:    4.6
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: ""
+
+  - name:       Question Circle Outlined
+    id:         question-circle-o
+    unicode:    f29c
+    created:    4.6
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "hooks asks query helps assists"
+
+  - name:       Blind
+    id:         blind
+    unicode:    f29d
+    created:    4.6
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "vision eye walk cane visually impaired"
+
+  - name:       Audio Description
+    id:         audio-description
+    unicode:    f29e
+    created:    4.6
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "blind visually impaired"
+
+  - name:       Volume Control Phone
+    id:         volume-control-phone
+    unicode:    f2a0
+    created:    4.6
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "talk communicate call cell chat connect"
+
+  - name:       Braille
+    id:         braille
+    unicode:    f2a1
+    created:    4.6
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "blind visually impaired language raised dots fingers fingertips"
+
+  - name:       Assistive Listening Systems
+    id:         assistive-listening-systems
+    unicode:    f2a2
+    created:    4.6
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "als ald deaf audio hearing impaired"
+
+  - name:       American Sign Language Interpreting
+    id:         american-sign-language-interpreting
+    unicode:    f2a3
+    created:    4.6
+    aliases:
+    - asl-interpreting
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "deaf hearing impaired"
+
+  - name:       Deaf
+    id:         deaf
+    unicode:    f2a4
+    created:    4.6
+    aliases:
+    - deafness
+    - hard-of-hearing
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "deaf hearing impaired"
+
+  - name:       Glide
+    id:         glide
+    unicode:    f2a5
+    created:    4.6
+    categories:
+    - Brand Icons
+    meta: ""
+
+  - name:       Glide G
+    id:         glide-g
+    unicode:    f2a6
+    created:    4.6
+    categories:
+    - Brand Icons
+    meta: "video messaging app phone conversations talk"
+
+  - name:       Sign Language
+    id:         sign-language
+    unicode:    f2a7
+    created:    4.6
+    aliases:
+    - signing
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "deaf hearing impaired"
+
+  - name:       Low Vision
+    id:         low-vision
+    unicode:    f2a8
+    created:    4.6
+    categories:
+    - Web Application Icons
+    - Accessibility Icons
+    meta: "visually impaired"
+
+  - name:       Viadeo
+    id:         viadeo
+    unicode:    f2a9
+    created:    4.6
+    categories:
+    - Brand Icons
+    meta: ""
+
+  - name:       Viadeo Square
+    id:         viadeo-square
+    unicode:    f2aa
+    created:    4.6
+    categories:
+    - Brand Icons
+    meta: "careers recruiters professionals social networking"
+
+  - name:       Snapchat
+    id:         snapchat
+    unicode:    f2ab
+    created:    4.6
+    categories:
+    - Brand Icons
+    meta: "talk im messages messengers"
+
+  - name:       Snapchat Ghost
+    id:         snapchat-ghost
+    unicode:    f2ac
+    created:    4.6
+    categories:
+    - Brand Icons
+    meta: "talk im messages messengers"
+
+  - name:       Snapchat Square
+    id:         snapchat-square
+    unicode:    f2ad
+    created:    4.6
+    categories:
+    - Brand Icons
+    meta: "talk im messages messengers"
