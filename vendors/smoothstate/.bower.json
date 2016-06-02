@@ -1,24 +1,35 @@
 {
   "name": "smoothstate",
-  "main": "jquery.smoothState.js",
-  "version": "0.5.1",
-  "description": "A jQuery plugin to stop the jank of page loads.",
+  "main": "./src/jquery.smoothState.js",
+  "version": "0.7.2",
+  "description": "Unobtrusive page transitions with jQuery.",
   "keywords": [
     "pjax",
     "animation",
     "turbolinks",
     "ajax",
-    "ui",
-    "ajaxify"
+    "ajaxify",
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "page transitions"
   ],
-  "author": [
-    "Miguel Angel Perez"
+  "authors": [
+    {
+      "name": "Miguel Perez",
+      "email": "reachme@miguel-perez.com",
+      "url": "http://miguel-perez.com/"
+    }
   ],
   "license": "MIT",
-  "homepage": "https://miguel-perez.github.io/jquery.smoothState.js/",
+  "homepage": "http://miguel-perez.github.io/smoothState.js/",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:miguel-perez/smoothState.js.git"
+  },
   "dependencies": {
     "jquery": ">=1.9"
   },
+  "bugs": "https://github.com/miguel-perez/smoothState.js/issues?q=is%3Aopen+is%3Aissue+label%3Abug",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -26,13 +37,13 @@
     "test",
     "tests"
   ],
-  "_release": "0.5.1",
+  "_release": "0.7.2",
   "_resolution": {
     "type": "version",
-    "tag": "0.5.1",
-    "commit": "bc3a92f2b6c32870a1a1929ceb9c1c07dd5e2733"
+    "tag": "0.7.2",
+    "commit": "3abbd8ffa72bdc4e3d45614243b52e1d1bfd8883"
   },
-  "_source": "git://github.com/miguel-perez/jquery.smoothState.js.git",
-  "_target": "~0.5.1",
+  "_source": "https://github.com/miguel-perez/smoothState.js.git",
+  "_target": "~0.7.2",
   "_originalSource": "smoothstate"
 }
