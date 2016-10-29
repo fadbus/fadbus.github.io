@@ -5338,7 +5338,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "greets hello meet connect"
 
   - name:       Envelope Open
     id:         envelope-open
@@ -5346,7 +5346,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "mails emails received"
 
   - name:       Envelope Open Outlined
     id:         envelope-open-o
@@ -5354,7 +5354,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "mails emails received"
 
   - name:       Linode
     id:         linode
@@ -5363,7 +5363,7 @@ icons:
     url:        linode.com
     categories:
       - Brand Icons
-    meta: ""
+    meta: "linux hosting cloud"
 
   - name:       Address Book
     id:         address-book
@@ -5379,7 +5379,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "contacts people persons"
 
   - name:       Address Card
     id:         address-card
@@ -5389,7 +5389,7 @@ icons:
       - vcard
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "contacts people persons rolodex"
 
   - name:       Address Card Outlined
     id:         address-card-o
@@ -5399,7 +5399,7 @@ icons:
       - vcard-o
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "contacts people persons rolodex"
 
   - name:       User Circle
     id:         user-circle
@@ -5407,7 +5407,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "users people accounts"
 
   - name:       User Circle Outlined
     id:         user-circle-o
@@ -5415,7 +5415,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "users people accounts"
 
 
   - name:       User Outlined
@@ -5424,7 +5424,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "users people accounts"
 
   - name:       Identification Badge
     id:         id-badge
@@ -5432,7 +5432,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "id identity"
 
   - name:       Identification Card
     id:         id-card
@@ -5442,7 +5442,7 @@ icons:
       - drivers-license
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "id identity"
 
   - name:       Identification Card Outlined
     id:         id-card-o
@@ -5452,7 +5452,7 @@ icons:
       - drivers-license-o
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "id identity"
 
   - name:       Quora
     id:         quora
@@ -5460,7 +5460,7 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
-    meta: ""
+    meta: "knowledge answers questions social"
 
   - name:       Free Code Camp
     id:         free-code-camp
@@ -5468,7 +5468,7 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
-    meta: ""
+    meta: "community social open-source code develop"
 
   - name:       Telegram
     id:         telegram
@@ -5487,7 +5487,7 @@ icons:
       - thermometer
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "sensors gages measure thermostat degrees hot cold"
 
   - name:       Thermometer 3/4 Full
     id:         thermometer-three-quarters
@@ -5497,7 +5497,7 @@ icons:
       - thermometer-3
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "sensors gages measure thermostat degrees hot cold"
 
   - name:       Thermometer 1/2 Full
     id:         thermometer-half
@@ -5507,7 +5507,7 @@ icons:
       - thermometer-2
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "sensors gages measure thermostat degrees hot cold"
 
   - name:       Thermometer 1/4 Full
     id:         thermometer-quarter
@@ -5517,7 +5517,7 @@ icons:
       - thermometer-1
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "sensors gages measure thermostat degrees hot cold"
 
   - name:       Thermometer Empty
     id:         thermometer-empty
@@ -5527,7 +5527,7 @@ icons:
       - thermometer-0
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "sensors gages measure thermostat degrees hot cold"
 
   - name:       Shower
     id:         shower
@@ -5535,7 +5535,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "cleans rinses washes bathes"
 
   - name:       Bath
     id:         bath
@@ -5546,7 +5546,7 @@ icons:
       - s15
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "cleans rinses washes bathes"
 
   - name:       Podcast
     id:         podcast
@@ -5554,8 +5554,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
-
+    meta: "audio series subscribers episodes"
 
   - name:       Window Maximize
     id:         window-maximize
@@ -5563,7 +5562,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "microsoft actions"
 
   - name:       Window Minimize
     id:         window-minimize
@@ -5571,7 +5570,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "microsoft actions"
 
   - name:       Window Restore
     id:         window-restore
@@ -5579,7 +5578,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "microsoft actions"
 
   - name:       Window Close
     id:         window-close
@@ -5589,7 +5588,7 @@ icons:
       - times-rectangle
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "microsoft actions"
 
   - name:       Window Close Outline
     id:         window-close-o
@@ -5599,7 +5598,7 @@ icons:
       - times-rectangle-o
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "microsoft actions"
 
   - name:       Bandcamp
     id:         bandcamp
@@ -5607,39 +5606,43 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
-    meta: ""
+    meta: "musics platforms musicians songs artists"
 
   - name:       Grav
     id:         grav
     unicode:    f2d6
     created:    4.7
+    url: getgrav.org
     categories:
       - Brand Icons
-    meta: ""
+    meta: "open-source flat-file cms platform blog"
 
   - name:       Etsy
     id:         etsy
     unicode:    f2d7
     created:    4.7
+    url: etsy.com
     categories:
       - Brand Icons
-    meta: ""
+    meta: "stores marketplaces sells"
 
   - name:       IMDB
     id:         imdb
     unicode:    f2d8
     created:    4.7
+    url: imdb.com
     categories:
       - Brand Icons
-    meta: ""
+    meta: "movie database"
 
   - name:       Ravelry
     id:         ravelry
     unicode:    f2d9
     created:    4.7
+    url: ravelry.com
     categories:
       - Brand Icons
-    meta: ""
+    meta: "knits crochets sews"
 
   - name:       Eercast
     id:         eercast
@@ -5648,7 +5651,7 @@ icons:
     url:        eercast.com
     categories:
       - Brand Icons
-    meta: ""
+    meta: "social"
 
   - name:       Microchip
     id:         microchip
@@ -5656,7 +5659,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "computers"
 
   - name:       Snowflake Outlined
     id:         snowflake-o
@@ -5664,7 +5667,7 @@ icons:
     created:    4.7
     categories:
       - Web Application Icons
-    meta: ""
+    meta: "colds winters freezes"
 
   - name:       Superpowers
     id:         superpowers
@@ -5682,7 +5685,7 @@ icons:
     url:        wpexplorer.com
     categories:
       - Brand Icons
-    meta: ""
+    meta: "Wordpress themes plugins hosting"
 
   - name:       Meetup
     id:         meetup
@@ -5690,4 +5693,4 @@ icons:
     created:    4.7
     categories:
       - Brand Icons
-    meta: ""
+    meta: "socials networkings portals facilitates groups meetings"
