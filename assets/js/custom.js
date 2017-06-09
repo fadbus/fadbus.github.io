@@ -57,4 +57,6 @@ $(document).ready(function(){
     $('#font-modal').modal({show:true});
     e.preventDefault();
   });
+
+  $('input#font-filter-box').focus();
 });
