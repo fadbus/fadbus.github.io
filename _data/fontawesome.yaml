@@ -15,7 +15,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "tunes beams notes pitch rhythm tempo articulation"
+    meta: "tunes sounds beats notes pitch rhythm tempo articulation"
 
   - name: "Search"
     id: "search"
@@ -23,7 +23,7 @@ icons:
     created: 1
     categories:
       - "Web Application Icons"
-    meta: "magnify glass look finds filters google groks"
+    meta: "magnify glass looks finds filters google groks"
 
   - name: "Envelope Outlined"
     id: "envelope-o"
