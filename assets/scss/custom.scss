@@ -29,11 +29,11 @@ $sansSerifFont: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 /*variables -- sizes*/
 
 /*variables -- colors*/
-$coreBackgroundColor: #7baaf7;
+$coreBackgroundColor: #8283a7;
 $coreHyperlink: #00a;
 $subtleGray: #eee;
 $light: #efefef;
-$activeCallout: #a29e5e;
+$activeCallout: #a5d296;
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* resets
@@ -76,8 +76,8 @@ a:visited { color: $coreHyperlink; }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* Bootstrap overrides
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-.container {
-  // width: 1024px;
+.container-narrow {
+  width: 900px;
 }
 
 .row {
